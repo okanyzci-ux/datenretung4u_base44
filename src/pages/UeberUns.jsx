@@ -33,7 +33,7 @@ export default function UeberUns() {
   ];
 
   const milestones = [
-    { year: "2014", event: "Gründung von Handy Planet in Linz" },
+    { year: "2014", event: "Gründung von DatenRettung4U in Linz" },
     { year: "2016", event: "Erste 1.000 erfolgreiche Datenrettungen" },
     { year: "2018", event: "Erweiterung des Labors mit Reinraumtechnik" },
     { year: "2020", event: "5.000 gerettete Geräte erreicht" },
@@ -44,10 +44,10 @@ export default function UeberUns() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Über Uns | Handy Planet OG - 10+ Jahre Datenrettungs-Expertise"
+        title="Über Uns | DatenRettung4U - 10+ Jahre Datenrettungs-Expertise"
         description="Seit über 10 Jahren Ihr Partner für Smartphone Datenrettung in Österreich ✓ 10.000+ gerettete Geräte ✓ 99% Erfolgsquote ✓ Zertifiziertes Labor in Linz ✓ Erfahrene Techniker"
-        keywords="Handy Planet, Datenrettung Firma Österreich, Datenrettung Labor Linz, Smartphone Reparatur Firma, iPhone Datenrettung Experten"
-        canonicalUrl="https://handyplanet.at/ueber-uns"
+        keywords="DatenRettung4U, Datenrettung Firma Österreich, Datenrettung Labor Linz, Smartphone Reparatur Firma, iPhone Datenrettung Experten"
+        canonicalUrl="https://datenrettung4u.at/ueber-uns"
       />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
@@ -179,7 +179,7 @@ export default function UeberUns() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Handy Planet OG</h2>
+              <h2 className="text-3xl font-bold mb-6">DatenRettung4U</h2>
               <p className="text-slate-300 mb-8">
                 Als österreichisches Unternehmen mit Sitz in Linz sind wir stolz darauf, 
                 unseren Kunden in ganz Österreich professionelle Datenrettungs-Dienstleistungen 
@@ -208,8 +208,8 @@ export default function UeberUns() {
                   <Mail className="w-6 h-6 text-cyan-400 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">E-Mail</p>
-                    <a href="mailto:info@handyplanet.at" className="text-slate-400 hover:text-cyan-400 transition-colors">
-                      info@handyplanet.at
+                    <a href="mailto:info@datenrettung4u.at" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                      info@datenrettung4u.at
                     </a>
                   </div>
                 </div>
@@ -217,6 +217,7 @@ export default function UeberUns() {
 
               <div className="mt-8 pt-8 border-t border-slate-700">
                 <p className="text-sm text-slate-500">
+                  Betrieben von Handy Planet OG<br />
                   <strong>UID-Nummer:</strong> ATU77057845
                 </p>
               </div>

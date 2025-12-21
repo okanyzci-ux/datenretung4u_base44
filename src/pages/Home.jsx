@@ -12,10 +12,10 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Handy Planet OG",
+    "name": "DatenRettung4U",
     "image": "https://images.unsplash.com/photo-1526657782461-9fe13402a841?w=1200&q=80",
-    "@id": "https://handyplanet.at",
-    "url": "https://handyplanet.at",
+    "@id": "https://datenrettung4u.at",
+    "url": "https://datenrettung4u.at",
     "telephone": "+436609005454",
     "priceRange": "€€",
     "address": {
@@ -50,10 +50,10 @@ export default function Home() {
   return (
     <div>
       <SEO 
-        title="Smartphone Datenrettung Österreich | Handy Planet - 99% Erfolgsquote"
+        title="Smartphone Datenrettung Österreich | DatenRettung4U - 99% Erfolgsquote"
         description="Professionelle Smartphone Datenrettung in Österreich ✓ 99% Erfolgsquote ✓ Kostenlose Diagnose ✓ Wasserschaden, Sturzschaden, Platinenschaden ✓ Keine Daten, keine Kosten"
         keywords="Datenrettung, Smartphone Datenrettung, Handy Datenrettung, iPhone Datenrettung, Samsung Datenrettung, Wasserschaden, Platinenschaden, Datenrettung Österreich, Datenrettung Linz"
-        canonicalUrl="https://handyplanet.at"
+        canonicalUrl="https://datenrettung4u.at"
       />
       <StructuredData data={structuredData} />
       <HeroSection />

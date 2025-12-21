@@ -11,7 +11,7 @@ export default function Wien() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Handy Planet OG - Datenrettung Wien",
+    "name": "DatenRettung4U - Datenrettung Wien",
     "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1200&q=80",
     "description": "Professionelle Handy Datenrettung für Wien - iPhone, Samsung, Android. Kostenloser Versand aus der Bundeshauptstadt.",
     "address": {
@@ -20,9 +20,9 @@ export default function Wien() {
       "addressRegion": "Wien",
       "addressCountry": "AT"
     },
-    "url": "https://handyplanet.at/wien",
+    "url": "https://datenrettung4u.at/wien",
     "telephone": "+436609005454",
-    "email": "info@handyplanet.at",
+    "email": "info@datenrettung4u.at",
     "priceRange": "€€",
     "areaServed": [
       {
@@ -77,7 +77,7 @@ export default function Wien() {
         title="Handy Datenrettung Wien | iPhone & Android Datenrettung Express ✓"
         description="📱 Handy Datenrettung Wien ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand ✓ 24-48h Express ✓ Wasserschaden Experten ✓ 99% Erfolgsquote"
         keywords="Handy Datenrettung Wien, iPhone Datenrettung Wien, Android Datenrettung Wien, Samsung Datenrettung Wien, Smartphone Reparatur Wien, Datenrettung Bundeshauptstadt, Handy Reparatur Wien 1010, Wasserschaden Wien, Display Reparatur Wien"
-        canonicalUrl="https://handyplanet.at/wien"
+        canonicalUrl="https://datenrettung4u.at/wien"
       />
       <StructuredData data={structuredData} />
       <CityHero 

@@ -11,7 +11,7 @@ export default function Linz() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Handy Planet OG - Datenrettung Linz",
+    "name": "DatenRettung4U - Datenrettung Linz",
     "image": "https://images.unsplash.com/photo-1609239718650-4de2dfbdab02?w=1200&q=80",
     "description": "Professionelle Handy Datenrettung in Linz - iPhone, Samsung, Android. Direkt vor Ort in der Goethestraße 3.",
     "address": {
@@ -27,9 +27,9 @@ export default function Linz() {
       "latitude": 48.3064,
       "longitude": 14.2858
     },
-    "url": "https://handyplanet.at/linz",
+    "url": "https://datenrettung4u.at/linz",
     "telephone": "+436609005454",
-    "email": "info@handyplanet.at",
+    "email": "info@datenrettung4u.at",
     "priceRange": "€€",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -90,7 +90,7 @@ export default function Linz() {
         title="Handy Datenrettung Linz | iPhone & Android Datenrettung vor Ort ✓"
         description="🔧 Handy Datenrettung Linz direkt in der Goethestraße 3 ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Wasserschaden, Display, Platine ✓ 99% Erfolg ✓ Ab 99€"
         keywords="Handy Datenrettung Linz, iPhone Datenrettung Linz, Android Datenrettung Linz, Samsung Datenrettung Linz, Smartphone Datenrettung Linz, Datenrettung Oberösterreich, Handy Reparatur Linz, Wasserschaden Linz, Display Reparatur Linz"
-        canonicalUrl="https://handyplanet.at/linz"
+        canonicalUrl="https://datenrettung4u.at/linz"
       />
       <StructuredData data={structuredData} />
       <CityHero 

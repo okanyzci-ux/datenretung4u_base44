@@ -11,7 +11,7 @@ export default function Innsbruck() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Handy Planet OG - Datenrettung Innsbruck",
+    "name": "DatenRettung4U - Datenrettung Innsbruck",
     "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80",
     "description": "Professionelle Handy Datenrettung für Innsbruck und Tirol - iPhone, Samsung, Android. Auch aus den Alpen erreichen uns Ihre Geräte sicher.",
     "address": {
@@ -20,9 +20,9 @@ export default function Innsbruck() {
       "addressRegion": "Tirol",
       "addressCountry": "AT"
     },
-    "url": "https://handyplanet.at/innsbruck",
+    "url": "https://datenrettung4u.at/innsbruck",
     "telephone": "+436609005454",
-    "email": "info@handyplanet.at",
+    "email": "info@datenrettung4u.at",
     "priceRange": "€€",
     "areaServed": [
       {
@@ -77,7 +77,7 @@ export default function Innsbruck() {
         title="Handy Datenrettung Innsbruck | iPhone & Android Datenrettung Tirol ✓"
         description="🏔️ Handy Datenrettung Innsbruck & Tirol ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand aus den Alpen ✓ Wasserschaden ✓ 99% Erfolg ab 99€"
         keywords="Handy Datenrettung Innsbruck, iPhone Datenrettung Innsbruck, Android Datenrettung Innsbruck, Samsung Datenrettung Innsbruck, Smartphone Datenrettung Tirol, Handy Reparatur Innsbruck, Datenrettung Tirol, Wasserschaden Innsbruck"
-        canonicalUrl="https://handyplanet.at/innsbruck"
+        canonicalUrl="https://datenrettung4u.at/innsbruck"
       />
       <StructuredData data={structuredData} />
       <CityHero 

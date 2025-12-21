@@ -201,13 +201,13 @@ export default function ContactForm({ selectedBrand, selectedModel, selectedDama
                   <p className="font-semibold group-hover:text-cyan-400 transition-colors">0660 900 54 54</p>
                 </div>
               </a>
-              <a href="mailto:info@handyplanet.at" className="flex items-start gap-4 group">
+              <a href="mailto:info@datenrettung4u.at" className="flex items-start gap-4 group">
                 <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-500 transition-colors">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-sm">E-Mail</p>
-                  <p className="font-semibold group-hover:text-cyan-400 transition-colors">info@handyplanet.at</p>
+                  <p className="font-semibold group-hover:text-cyan-400 transition-colors">info@datenrettung4u.at</p>
                 </div>
               </a>
               <div className="flex items-start gap-4">

@@ -110,10 +110,10 @@ export default function Preise() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Preise Datenrettung | Transparente Kosten ab 99€ - Handy Planet"
+        title="Preise Datenrettung | Transparente Kosten ab 99€ - DatenRettung4U"
         description="Faire Preise für Smartphone Datenrettung ✓ Ab 99€ ✓ Keine versteckten Kosten ✓ Zahlung nur bei Erfolg ✓ Kostenlose Diagnose ✓ Standard, Forensik & Komplex-Service"
         keywords="Datenrettung Preise, Handy Datenrettung Kosten, iPhone Datenrettung Preis, Samsung Datenrettung Kosten, was kostet Datenrettung"
-        canonicalUrl="https://handyplanet.at/preise"
+        canonicalUrl="https://datenrettung4u.at/preise"
       />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">

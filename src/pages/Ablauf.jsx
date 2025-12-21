@@ -58,10 +58,10 @@ export default function Ablauf() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Ablauf Datenrettung | So funktioniert's in 6 Schritten - Handy Planet"
+        title="Ablauf Datenrettung | So funktioniert's in 6 Schritten - DatenRettung4U"
         description="Einfacher Ablauf der Smartphone Datenrettung ✓ 6 transparente Schritte ✓ Von der Anfrage bis zur Datenrückgabe ✓ Kostenloser Versand ✓ 24-48h Diagnose ✓ Keine Vorauskasse"
         keywords="Datenrettung Ablauf, wie funktioniert Datenrettung, Handy Datenrettung Prozess, Smartphone Reparatur Ablauf, Datenrettung Schritte"
-        canonicalUrl="https://handyplanet.at/ablauf"
+        canonicalUrl="https://datenrettung4u.at/ablauf"
       />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
@@ -169,7 +169,7 @@ export default function Ablauf() {
               Warum bei uns?
             </h2>
             <p className="text-lg text-slate-600">
-              Diese Vorteile erwarten Sie bei Handy Planet
+              Diese Vorteile erwarten Sie bei DatenRettung4U
             </p>
           </div>
 

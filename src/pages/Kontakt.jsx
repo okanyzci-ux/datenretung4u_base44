@@ -71,10 +71,10 @@ export default function Kontakt() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Kontakt | Handy Planet OG - Jetzt Datenrettung anfragen"
-        description="Kontaktieren Sie uns für Ihre Smartphone Datenrettung ✓ Telefon: 0660 900 54 54 ✓ E-Mail: info@handyplanet.at ✓ Goethestraße 3, 4020 Linz ✓ Kostenlose Beratung"
-        keywords="Kontakt Handy Planet, Datenrettung Kontakt, Handy Reparatur Linz Kontakt, Smartphone Datenrettung anfragen, Datenrettung Beratung"
-        canonicalUrl="https://handyplanet.at/kontakt"
+        title="Kontakt | DatenRettung4U - Jetzt Datenrettung anfragen"
+        description="Kontaktieren Sie uns für Ihre Smartphone Datenrettung ✓ Telefon: 0660 900 54 54 ✓ E-Mail: info@datenrettung4u.at ✓ Goethestraße 3, 4020 Linz ✓ Kostenlose Beratung"
+        keywords="Kontakt DatenRettung4U, Datenrettung Kontakt, Handy Reparatur Linz Kontakt, Smartphone Datenrettung anfragen, Datenrettung Beratung"
+        canonicalUrl="https://datenrettung4u.at/kontakt"
       />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">

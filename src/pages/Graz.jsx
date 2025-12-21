@@ -11,7 +11,7 @@ export default function Graz() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Handy Planet OG - Datenrettung Graz",
+    "name": "DatenRettung4U - Datenrettung Graz",
     "image": "https://images.unsplash.com/photo-1609094803873-4826c1efb4c3?w=1200&q=80",
     "description": "Professionelle Handy Datenrettung für Graz und die Steiermark - iPhone, Samsung, Android. Schneller Service aus der grünen Stadt.",
     "address": {
@@ -20,9 +20,9 @@ export default function Graz() {
       "addressRegion": "Steiermark",
       "addressCountry": "AT"
     },
-    "url": "https://handyplanet.at/graz",
+    "url": "https://datenrettung4u.at/graz",
     "telephone": "+436609005454",
-    "email": "info@handyplanet.at",
+    "email": "info@datenrettung4u.at",
     "priceRange": "€€",
     "areaServed": [
       {
@@ -77,7 +77,7 @@ export default function Graz() {
         title="Handy Datenrettung Graz | iPhone & Android Datenrettung Steiermark ✓"
         description="🔧 Handy Datenrettung Graz & Steiermark ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand ✓ Wasserschaden & Platine ✓ 99% Erfolg ✓ Ab 99€"
         keywords="Handy Datenrettung Graz, iPhone Datenrettung Graz, Android Datenrettung Graz, Samsung Datenrettung Graz, Smartphone Datenrettung Steiermark, Handy Reparatur Graz, Datenrettung Steiermark, Wasserschaden Graz, Display Reparatur Graz"
-        canonicalUrl="https://handyplanet.at/graz"
+        canonicalUrl="https://datenrettung4u.at/graz"
       />
       <StructuredData data={structuredData} />
       <CityHero 

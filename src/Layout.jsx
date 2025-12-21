@@ -80,9 +80,9 @@ export default function Layout({ children, currentPageName }) {
             </span>
           </div>
           <div className="flex items-center gap-6">
-            <a href="mailto:info@handyplanet.at" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
+            <a href="mailto:info@datenrettung4u.at" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
               <Mail className="w-4 h-4" />
-              info@handyplanet.at
+              info@datenrettung4u.at
             </a>
             <a href="tel:+436609005454" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
               <Phone className="w-4 h-4" />
@@ -101,12 +101,12 @@ export default function Layout({ children, currentPageName }) {
             {/* Logo */}
             <Link to={createPageUrl("Home")} className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
-                <Phone className="w-6 h-6 text-white" />
+                <Shield className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="text-xl font-bold text-slate-900">HANDY</span>
-                <span className="text-xl font-bold text-cyan-500">PLANET</span>
-                <p className="text-xs text-slate-500 -mt-1">Datenrettung Österreich</p>
+                <span className="text-xl font-bold text-slate-900">DatenRettung</span>
+                <span className="text-xl font-bold text-cyan-500">4U</span>
+                <p className="text-xs text-slate-500 -mt-1">Ihr Datenretter in Österreich</p>
               </div>
             </Link>
 
@@ -245,11 +245,11 @@ export default function Layout({ children, currentPageName }) {
             <div>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-white" />
+                  <Shield className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <span className="text-lg font-bold">HANDY</span>
-                  <span className="text-lg font-bold text-cyan-400">PLANET</span>
+                  <span className="text-lg font-bold">DatenRettung</span>
+                  <span className="text-lg font-bold text-cyan-400">4U</span>
                 </div>
               </div>
               <p className="text-slate-400 mb-6">
@@ -310,7 +310,7 @@ export default function Layout({ children, currentPageName }) {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-cyan-400 mt-1 flex-shrink-0" />
                   <span className="text-slate-400">
-                    Handy Planet OG<br />
+                    DatenRettung4U<br />
                     Goethestraße 3<br />
                     4020 Linz, Österreich
                   </span>
@@ -323,8 +323,8 @@ export default function Layout({ children, currentPageName }) {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-cyan-400 flex-shrink-0" />
-                  <a href="mailto:info@handyplanet.at" className="text-slate-400 hover:text-cyan-400 transition-colors">
-                    info@handyplanet.at
+                  <a href="mailto:info@datenrettung4u.at" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                    info@datenrettung4u.at
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
@@ -338,7 +338,7 @@ export default function Layout({ children, currentPageName }) {
           {/* Bottom Bar */}
           <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-500 text-sm">
-              © {new Date().getFullYear()} Handy Planet OG. Alle Rechte vorbehalten.
+              © {new Date().getFullYear()} DatenRettung4U. Alle Rechte vorbehalten.
             </p>
             <div className="flex items-center gap-6 text-sm">
               <Link to={createPageUrl("Impressum")} className="text-slate-500 hover:text-cyan-400 transition-colors">
