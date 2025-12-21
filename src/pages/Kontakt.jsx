@@ -123,8 +123,8 @@ export default function Kontakt() {
                     <Building className="w-6 h-6 text-cyan-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-slate-900">Handy Planet OG</h3>
-                    <p className="text-slate-600">Ihr Partner für Datenrettung</p>
+                    <h3 className="font-semibold text-slate-900">DatenRettung4U</h3>
+                    <p className="text-slate-600">Betrieben von Handy Planet OG</p>
                   </div>
                 </motion.div>
 
@@ -161,7 +161,7 @@ export default function Kontakt() {
                 </motion.a>
 
                 <motion.a
-                  href="mailto:info@handyplanet.at"
+                  href="mailto:info@datenrettung4u.at"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.3 }}
@@ -172,7 +172,7 @@ export default function Kontakt() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900">E-Mail</h3>
-                    <p className="text-cyan-600 group-hover:text-cyan-700 transition-colors">info@handyplanet.at</p>
+                    <p className="text-cyan-600 group-hover:text-cyan-700 transition-colors">info@datenrettung4u.at</p>
                   </div>
                 </motion.a>
 
@@ -300,7 +300,7 @@ export default function Kontakt() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Standort Handy Planet"
+              title="Standort DatenRettung4U"
               className="rounded-2xl"
             />
           </div>
