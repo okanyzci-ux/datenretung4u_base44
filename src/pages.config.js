@@ -6,11 +6,11 @@ import UeberUns from './pages/UeberUns';
 import Kontakt from './pages/Kontakt';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
-import DatenrettungWien from './pages/DatenrettungWien';
-import DatenrettungLinz from './pages/DatenrettungLinz';
-import DatenrettungGraz from './pages/DatenrettungGraz';
-import DatenrettungSalzburg from './pages/DatenrettungSalzburg';
-import DatenrettungInnsbruck from './pages/DatenrettungInnsbruck';
+import datenrettungWien from './pages/datenrettung-wien';
+import datenrettungLinz from './pages/datenrettung-linz';
+import datenrettungGraz from './pages/datenrettung-graz';
+import datenrettungSalzburg from './pages/datenrettung-salzburg';
+import datenrettungInnsbruck from './pages/datenrettung-innsbruck';
 import __Layout from './Layout.jsx';
 
 
@@ -23,11 +23,11 @@ export const PAGES = {
     "Kontakt": Kontakt,
     "Impressum": Impressum,
     "Datenschutz": Datenschutz,
-    "DatenrettungWien": DatenrettungWien,
-    "DatenrettungLinz": DatenrettungLinz,
-    "DatenrettungGraz": DatenrettungGraz,
-    "DatenrettungSalzburg": DatenrettungSalzburg,
-    "DatenrettungInnsbruck": DatenrettungInnsbruck,
+    "datenrettung-wien": datenrettungWien,
+    "datenrettung-linz": datenrettungLinz,
+    "datenrettung-graz": datenrettungGraz,
+    "datenrettung-salzburg": datenrettungSalzburg,
+    "datenrettung-innsbruck": datenrettungInnsbruck,
 }
 
 export const pagesConfig = {

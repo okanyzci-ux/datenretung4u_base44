@@ -23,11 +23,11 @@ export default function Layout({ children, currentPageName }) {
   }, [currentPageName]);
 
   const standorte = [
-    { name: "Linz", page: "DatenrettungLinz" },
-    { name: "Wien", page: "DatenrettungWien" },
-    { name: "Graz", page: "DatenrettungGraz" },
-    { name: "Salzburg", page: "DatenrettungSalzburg" },
-    { name: "Innsbruck", page: "DatenrettungInnsbruck" }
+    { name: "Linz", page: "datenrettung-linz" },
+    { name: "Wien", page: "datenrettung-wien" },
+    { name: "Graz", page: "datenrettung-graz" },
+    { name: "Salzburg", page: "datenrettung-salzburg" },
+    { name: "Innsbruck", page: "datenrettung-innsbruck" }
   ];
 
   const navLinks = [
