@@ -6,6 +6,11 @@ import UeberUns from './pages/UeberUns';
 import Kontakt from './pages/Kontakt';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
+import Linz from './pages/Linz';
+import Wien from './pages/Wien';
+import Graz from './pages/Graz';
+import Salzburg from './pages/Salzburg';
+import Innsbruck from './pages/Innsbruck';
 import __Layout from './Layout.jsx';
 
 
@@ -18,6 +23,11 @@ export const PAGES = {
     "Kontakt": Kontakt,
     "Impressum": Impressum,
     "Datenschutz": Datenschutz,
+    "Linz": Linz,
+    "Wien": Wien,
+    "Graz": Graz,
+    "Salzburg": Salzburg,
+    "Innsbruck": Innsbruck,
 }
 
 export const pagesConfig = {
