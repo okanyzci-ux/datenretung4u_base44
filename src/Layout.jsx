@@ -18,6 +18,10 @@ export default function Layout({ children, currentPageName }) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentPageName]);
+
   const standorte = [
     { name: "Linz", page: "Linz" },
     { name: "Wien", page: "Wien" },
