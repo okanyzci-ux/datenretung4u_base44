@@ -11,7 +11,7 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
     },
     { 
       name: "Samsung", 
-      icon: "📱",
+      icon: "https://1000logos.net/wp-content/uploads/2017/06/Samsung-emblem.png",
       models: ["Galaxy S24 Ultra", "Galaxy S24+", "Galaxy S24", "Galaxy S23 Ultra", "Galaxy S23+", "Galaxy S23", "Galaxy S22 Ultra", "Galaxy S22+", "Galaxy S22", "Galaxy S21 Ultra", "Galaxy S21+", "Galaxy S21", "Galaxy A54", "Galaxy A53", "Galaxy A52", "Galaxy Note 20 Ultra", "Galaxy Note 20", "Galaxy Z Fold5", "Galaxy Z Flip5", "Anderes Modell"]
     },
     { 
@@ -75,7 +75,7 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
             }`}
           >
             <div className="h-12 mb-3 flex items-center justify-center group-hover:scale-110 transition-transform">
-              {brand.name === "Apple" ? (
+              {brand.name === "Apple" || brand.name === "Samsung" ? (
                 <img src={brand.icon} alt={brand.name} className="h-12 w-12 object-contain" />
               ) : (
                 <span className="text-5xl">{brand.icon}</span>
