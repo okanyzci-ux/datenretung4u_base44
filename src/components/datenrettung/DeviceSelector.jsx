@@ -16,22 +16,22 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
     },
     { 
       name: "Huawei", 
-      icon: "📲",
+      icon: "https://upload.wikimedia.org/wikipedia/de/thumb/c/c2/Huawei-Logo.svg/2022px-Huawei-Logo.svg.png",
       models: ["P60 Pro", "P50 Pro", "P40 Pro+", "P40 Pro", "P40", "P30 Pro", "P30", "Mate 50 Pro", "Mate 40 Pro", "Mate 30 Pro", "Nova Serie", "Anderes Modell"]
     },
     { 
       name: "Xiaomi", 
-      icon: "🔲",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/500px-Xiaomi_logo_%282021-%29.svg.png",
       models: ["Xiaomi 14 Ultra", "Xiaomi 14", "Xiaomi 13 Ultra", "Xiaomi 13", "Xiaomi 12 Pro", "Xiaomi 12", "Redmi Note 13 Pro", "Redmi Note 12 Pro", "Redmi Note 11 Pro", "Poco F5 Pro", "Poco F5", "Poco X5 Pro", "Anderes Modell"]
     },
     { 
       name: "Google Pixel", 
-      icon: "🔍",
+      icon: "https://static.vecteezy.com/system/resources/previews/068/842/026/non_2x/google-pixel-logo-emblem-icon-transparent-background-free-png.png",
       models: ["Pixel 8 Pro", "Pixel 8", "Pixel 7 Pro", "Pixel 7", "Pixel 6 Pro", "Pixel 6", "Pixel 5", "Pixel 4 XL", "Pixel 4", "Anderes Modell"]
     },
     { 
       name: "OnePlus", 
-      icon: "➕",
+      icon: "https://w7.pngwing.com/pngs/815/372/png-transparent-oneplus-6-oneplus-5t-oneplus-2-oneplus-one-text-trademark-rectangle-thumbnail.png",
       models: ["OnePlus 12", "OnePlus 11", "OnePlus 10 Pro", "OnePlus 10T", "OnePlus 9 Pro", "OnePlus 9", "OnePlus Nord 3", "OnePlus Nord CE 3", "Anderes Modell"]
     },
     { 
@@ -75,7 +75,7 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
             }`}
           >
             <div className="h-12 mb-3 flex items-center justify-center group-hover:scale-110 transition-transform">
-              {brand.name === "Apple" || brand.name === "Samsung" ? (
+              {["Apple", "Samsung", "Huawei", "Xiaomi", "Google Pixel", "OnePlus"].includes(brand.name) ? (
                 <img src={brand.icon} alt={brand.name} className="h-12 w-12 object-contain" />
               ) : (
                 <span className="text-5xl">{brand.icon}</span>
