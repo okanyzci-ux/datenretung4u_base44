@@ -36,7 +36,7 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
     },
     { 
       name: "Sony", 
-      icon: "🎵",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/2560px-Sony_logo.svg.png",
       models: ["Xperia 1 V", "Xperia 5 V", "Xperia 1 IV", "Xperia 5 IV", "Xperia 10 V", "Anderes Modell"]
     },
     { 
@@ -75,7 +75,7 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
             }`}
           >
             <div className="h-12 mb-3 flex items-center justify-center group-hover:scale-110 transition-transform">
-              {["Apple", "Samsung", "Huawei", "Xiaomi", "Google Pixel", "OnePlus"].includes(brand.name) ? (
+              {["Apple", "Samsung", "Huawei", "Xiaomi", "Google Pixel", "OnePlus", "Sony"].includes(brand.name) ? (
                 <img src={brand.icon} alt={brand.name} className="h-12 w-12 object-contain" />
               ) : (
                 <span className="text-5xl">{brand.icon}</span>
