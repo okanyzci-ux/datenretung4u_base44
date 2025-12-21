@@ -6,7 +6,7 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
   const brands = [
     { 
       name: "Apple", 
-      icon: "🍎",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
       models: ["iPhone 15 Pro Max", "iPhone 15 Pro", "iPhone 15", "iPhone 14 Pro Max", "iPhone 14 Pro", "iPhone 14", "iPhone 13 Pro Max", "iPhone 13 Pro", "iPhone 13", "iPhone 12 Pro Max", "iPhone 12 Pro", "iPhone 12", "iPhone 11 Pro Max", "iPhone 11 Pro", "iPhone 11", "iPhone XS Max", "iPhone XS", "iPhone XR", "iPhone X", "iPhone 8 Plus", "iPhone 8", "iPhone 7 Plus", "iPhone 7", "iPhone SE", "Anderes Modell"]
     },
     { 
@@ -74,8 +74,12 @@ export default function DeviceSelector({ selectedBrand, setSelectedBrand, setSte
                 : "border-slate-100 hover:border-cyan-300"
             }`}
           >
-            <div className="text-5xl mb-3 group-hover:scale-110 transition-transform">
-              {brand.icon}
+            <div className="h-12 mb-3 flex items-center justify-center group-hover:scale-110 transition-transform">
+              {brand.name === "Apple" ? (
+                <img src={brand.icon} alt={brand.name} className="h-12 w-12 object-contain" />
+              ) : (
+                <span className="text-5xl">{brand.icon}</span>
+              )}
             </div>
             <p className="font-semibold text-slate-900">{brand.name}</p>
             <ChevronRight className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-300 group-hover:text-cyan-500 group-hover:translate-x-1 transition-all" />
