@@ -7,7 +7,7 @@ import TrustSection from "../components/home/TrustSection";
 import TestimonialsSection from "../components/home/TestimonialsSection";
 import SEO, { StructuredData } from "../components/SEO";
 
-export default function Innsbruck() {
+export default function DatenrettungInnsbruck() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -20,7 +20,7 @@ export default function Innsbruck() {
       "addressRegion": "Tirol",
       "addressCountry": "AT"
     },
-    "url": "https://datenrettung4u.at/innsbruck",
+    "url": "https://datenrettung4u.at/datenrettung-innsbruck",
     "telephone": "+436609005454",
     "email": "info@datenrettung4u.at",
     "priceRange": "€€",
@@ -77,7 +77,7 @@ export default function Innsbruck() {
         title="Handy Datenrettung Innsbruck | iPhone & Android Datenrettung Tirol ✓"
         description="🏔️ Handy Datenrettung Innsbruck & Tirol ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand aus den Alpen ✓ Wasserschaden ✓ 99% Erfolg ab 99€"
         keywords="Handy Datenrettung Innsbruck, iPhone Datenrettung Innsbruck, Android Datenrettung Innsbruck, Samsung Datenrettung Innsbruck, Smartphone Datenrettung Tirol, Handy Reparatur Innsbruck, Datenrettung Tirol, Wasserschaden Innsbruck"
-        canonicalUrl="https://datenrettung4u.at/innsbruck"
+        canonicalUrl="https://datenrettung4u.at/datenrettung-innsbruck"
       />
       <StructuredData data={structuredData} />
       <CityHero 

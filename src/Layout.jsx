@@ -23,11 +23,11 @@ export default function Layout({ children, currentPageName }) {
   }, [currentPageName]);
 
   const standorte = [
-    { name: "Linz", page: "Linz" },
-    { name: "Wien", page: "Wien" },
-    { name: "Graz", page: "Graz" },
-    { name: "Salzburg", page: "Salzburg" },
-    { name: "Innsbruck", page: "Innsbruck" }
+    { name: "Linz", page: "DatenrettungLinz" },
+    { name: "Wien", page: "DatenrettungWien" },
+    { name: "Graz", page: "DatenrettungGraz" },
+    { name: "Salzburg", page: "DatenrettungSalzburg" },
+    { name: "Innsbruck", page: "DatenrettungInnsbruck" }
   ];
 
   const navLinks = [

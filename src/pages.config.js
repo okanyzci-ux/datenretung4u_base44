@@ -6,11 +6,11 @@ import UeberUns from './pages/UeberUns';
 import Kontakt from './pages/Kontakt';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
-import Linz from './pages/Linz';
-import Wien from './pages/Wien';
-import Graz from './pages/Graz';
-import Salzburg from './pages/Salzburg';
-import Innsbruck from './pages/Innsbruck';
+import DatenrettungWien from './pages/DatenrettungWien';
+import DatenrettungLinz from './pages/DatenrettungLinz';
+import DatenrettungGraz from './pages/DatenrettungGraz';
+import DatenrettungSalzburg from './pages/DatenrettungSalzburg';
+import DatenrettungInnsbruck from './pages/DatenrettungInnsbruck';
 import __Layout from './Layout.jsx';
 
 
@@ -23,11 +23,11 @@ export const PAGES = {
     "Kontakt": Kontakt,
     "Impressum": Impressum,
     "Datenschutz": Datenschutz,
-    "Linz": Linz,
-    "Wien": Wien,
-    "Graz": Graz,
-    "Salzburg": Salzburg,
-    "Innsbruck": Innsbruck,
+    "DatenrettungWien": DatenrettungWien,
+    "DatenrettungLinz": DatenrettungLinz,
+    "DatenrettungGraz": DatenrettungGraz,
+    "DatenrettungSalzburg": DatenrettungSalzburg,
+    "DatenrettungInnsbruck": DatenrettungInnsbruck,
 }
 
 export const pagesConfig = {
