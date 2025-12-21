@@ -102,7 +102,7 @@ export default function HeroSection() {
             <div className="flex items-center gap-6 mt-10 pt-8 border-t border-white/10">
               <div className="flex -space-x-3">
                 {[1, 2, 3, 4, 5].map((i) => (
-                  <div key={i} className="w-10 h-10 rounded-full bg-gradient-to-br from-slate-700 to-slate-600 border-2 border-slate-800 flex items-center justify-center text-xs font-bold text-white">
+                  <div key={i} className="w-10 h-10 rounded-full bg-gradient-to-br from-slate-700 to-slate-600 border-2 border-slate-800 flex items-center justify-center text-xs font-bold text-white" role="img" aria-label={`Kunde ${i}`}>
                     {String.fromCharCode(64 + i)}
                   </div>
                 ))}

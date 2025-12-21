@@ -6,6 +6,7 @@ import {
   CheckCircle, AlertCircle, ArrowRight, Shield, 
   Smartphone, Cpu, Droplets, Phone, HelpCircle
 } from "lucide-react";
+import SEO from "../components/SEO";
 
 export default function Preise() {
   const pricingTiers = [
@@ -108,6 +109,12 @@ export default function Preise() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Preise Datenrettung | Transparente Kosten ab 99€ - Handy Planet"
+        description="Faire Preise für Smartphone Datenrettung ✓ Ab 99€ ✓ Keine versteckten Kosten ✓ Zahlung nur bei Erfolg ✓ Kostenlose Diagnose ✓ Standard, Forensik & Komplex-Service"
+        keywords="Datenrettung Preise, Handy Datenrettung Kosten, iPhone Datenrettung Preis, Samsung Datenrettung Kosten, was kostet Datenrettung"
+        canonicalUrl="https://handyplanet.at/preise"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 text-center">

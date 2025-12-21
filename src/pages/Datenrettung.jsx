@@ -5,6 +5,7 @@ import ModelSelector from "../components/datenrettung/ModelSelector";
 import DamageSelector from "../components/datenrettung/DamageSelector";
 import ContactForm from "../components/datenrettung/ContactForm";
 import { Shield, Truck, CheckCircle, Clock } from "lucide-react";
+import SEO from "../components/SEO";
 
 export default function Datenrettung() {
   const [step, setStep] = useState(1);
@@ -28,6 +29,12 @@ export default function Datenrettung() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <SEO 
+        title="Datenrettung prüfen | Kostenlose Diagnose - Handy Planet"
+        description="Prüfen Sie jetzt kostenlos, ob eine Datenrettung für Ihr Smartphone möglich ist. Einfacher 4-Schritt-Prozess ✓ Alle Marken ✓ Schnelle Antwort innerhalb 24h"
+        keywords="Datenrettung anfragen, Handy Datenrettung prüfen, iPhone Datenrettung anfrage, kostenlose Diagnose, Smartphone Datenrettung Formular"
+        canonicalUrl="https://handyplanet.at/datenrettung"
+      />
       {/* Hero */}
       <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">

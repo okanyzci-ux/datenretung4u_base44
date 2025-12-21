@@ -6,6 +6,7 @@ import {
   Shield, Award, Users, Clock, Target, Heart,
   MapPin, Phone, Mail, ArrowRight, CheckCircle
 } from "lucide-react";
+import SEO from "../components/SEO";
 
 export default function UeberUns() {
   const values = [
@@ -42,6 +43,12 @@ export default function UeberUns() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Über Uns | Handy Planet OG - 10+ Jahre Datenrettungs-Expertise"
+        description="Seit über 10 Jahren Ihr Partner für Smartphone Datenrettung in Österreich ✓ 10.000+ gerettete Geräte ✓ 99% Erfolgsquote ✓ Zertifiziertes Labor in Linz ✓ Erfahrene Techniker"
+        keywords="Handy Planet, Datenrettung Firma Österreich, Datenrettung Labor Linz, Smartphone Reparatur Firma, iPhone Datenrettung Experten"
+        canonicalUrl="https://handyplanet.at/ueber-uns"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4">

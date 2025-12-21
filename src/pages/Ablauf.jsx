@@ -7,6 +7,7 @@ import {
   CheckCircle, ArrowRight, Download, Truck, 
   Clock, Shield, Phone, MessageCircle
 } from "lucide-react";
+import SEO from "../components/SEO";
 
 export default function Ablauf() {
   const steps = [
@@ -56,6 +57,12 @@ export default function Ablauf() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Ablauf Datenrettung | So funktioniert's in 6 Schritten - Handy Planet"
+        description="Einfacher Ablauf der Smartphone Datenrettung ✓ 6 transparente Schritte ✓ Von der Anfrage bis zur Datenrückgabe ✓ Kostenloser Versand ✓ 24-48h Diagnose ✓ Keine Vorauskasse"
+        keywords="Datenrettung Ablauf, wie funktioniert Datenrettung, Handy Datenrettung Prozess, Smartphone Reparatur Ablauf, Datenrettung Schritte"
+        canonicalUrl="https://handyplanet.at/ablauf"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
