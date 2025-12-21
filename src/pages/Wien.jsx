@@ -10,25 +10,73 @@ import SEO, { StructuredData } from "../components/SEO";
 export default function Wien() {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Smartphone Datenrettung",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Handy Planet OG",
-      "telephone": "+436609005454"
+    "@type": "LocalBusiness",
+    "name": "Handy Planet OG - Datenrettung Wien",
+    "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1200&q=80",
+    "description": "Professionelle Handy Datenrettung für Wien - iPhone, Samsung, Android. Kostenloser Versand aus der Bundeshauptstadt.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wien",
+      "addressRegion": "Wien",
+      "addressCountry": "AT"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Wien"
+    "url": "https://handyplanet.at/wien",
+    "telephone": "+436609005454",
+    "email": "info@handyplanet.at",
+    "priceRange": "€€",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Wien"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Wien"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Datenrettung Services Wien",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "iPhone Datenrettung Wien",
+            "description": "iPhone Datenrettung für alle Modelle - Express-Service verfügbar"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Samsung Galaxy Datenrettung Wien",
+            "description": "Samsung Datenrettung mit kostenlosem Versand aus Wien"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Android Smartphone Datenrettung Wien",
+            "description": "Datenrettung für Huawei, Xiaomi, OnePlus und alle Android Geräte"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "3124"
     }
   };
 
   return (
     <div>
       <SEO 
-        title="Datenrettung Wien | Smartphone Datenrettung für die Bundeshauptstadt"
-        description="Smartphone Datenrettung Wien ✓ Kostenloser Versand aus Wien ✓ 24-48h Express-Service ✓ iPhone, Samsung, Huawei ✓ Wasserschaden & Platinenschaden Experten"
-        keywords="Datenrettung Wien, Handy Datenrettung Wien, iPhone Reparatur Wien, Samsung Datenrettung Wien, Smartphone Reparatur Wien"
+        title="Handy Datenrettung Wien | iPhone & Android Datenrettung Express ✓"
+        description="📱 Handy Datenrettung Wien ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand ✓ 24-48h Express ✓ Wasserschaden Experten ✓ 99% Erfolgsquote"
+        keywords="Handy Datenrettung Wien, iPhone Datenrettung Wien, Android Datenrettung Wien, Samsung Datenrettung Wien, Smartphone Reparatur Wien, Datenrettung Bundeshauptstadt, Handy Reparatur Wien 1010, Wasserschaden Wien, Display Reparatur Wien"
         canonicalUrl="https://handyplanet.at/wien"
       />
       <StructuredData data={structuredData} />

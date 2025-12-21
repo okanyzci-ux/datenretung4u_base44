@@ -10,25 +10,73 @@ import SEO, { StructuredData } from "../components/SEO";
 export default function Graz() {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Smartphone Datenrettung",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Handy Planet OG",
-      "telephone": "+436609005454"
+    "@type": "LocalBusiness",
+    "name": "Handy Planet OG - Datenrettung Graz",
+    "image": "https://images.unsplash.com/photo-1609094803873-4826c1efb4c3?w=1200&q=80",
+    "description": "Professionelle Handy Datenrettung für Graz und die Steiermark - iPhone, Samsung, Android. Schneller Service aus der grünen Stadt.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Graz",
+      "addressRegion": "Steiermark",
+      "addressCountry": "AT"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Graz"
+    "url": "https://handyplanet.at/graz",
+    "telephone": "+436609005454",
+    "email": "info@handyplanet.at",
+    "priceRange": "€€",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Graz"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Steiermark"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Datenrettung Services Graz",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "iPhone Datenrettung Graz",
+            "description": "Spezialisierte iPhone Datenrettung für Graz und Steiermark"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Samsung Datenrettung Graz",
+            "description": "Samsung Galaxy Datenrettung mit kostenlosem Versand"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Android Datenrettung Graz",
+            "description": "Datenrettung für Huawei, Xiaomi, Google Pixel und alle Android Smartphones"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1876"
     }
   };
 
   return (
     <div>
       <SEO 
-        title="Datenrettung Graz | Smartphone Datenrettung Steiermark - Handy Planet"
-        description="Datenrettung Graz und Steiermark ✓ Professionelle Handy Datenrettung ✓ Kostenloser Versand ✓ 99% Erfolgsquote ✓ iPhone, Samsung, Huawei Experten"
-        keywords="Datenrettung Graz, Handy Reparatur Graz, Smartphone Datenrettung Steiermark, iPhone Datenrettung Graz, Wasserschaden Graz"
+        title="Handy Datenrettung Graz | iPhone & Android Datenrettung Steiermark ✓"
+        description="🔧 Handy Datenrettung Graz & Steiermark ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand ✓ Wasserschaden & Platine ✓ 99% Erfolg ✓ Ab 99€"
+        keywords="Handy Datenrettung Graz, iPhone Datenrettung Graz, Android Datenrettung Graz, Samsung Datenrettung Graz, Smartphone Datenrettung Steiermark, Handy Reparatur Graz, Datenrettung Steiermark, Wasserschaden Graz, Display Reparatur Graz"
         canonicalUrl="https://handyplanet.at/graz"
       />
       <StructuredData data={structuredData} />

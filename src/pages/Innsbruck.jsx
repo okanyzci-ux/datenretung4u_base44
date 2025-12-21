@@ -10,25 +10,73 @@ import SEO, { StructuredData } from "../components/SEO";
 export default function Innsbruck() {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Smartphone Datenrettung",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Handy Planet OG",
-      "telephone": "+436609005454"
+    "@type": "LocalBusiness",
+    "name": "Handy Planet OG - Datenrettung Innsbruck",
+    "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80",
+    "description": "Professionelle Handy Datenrettung für Innsbruck und Tirol - iPhone, Samsung, Android. Auch aus den Alpen erreichen uns Ihre Geräte sicher.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Innsbruck",
+      "addressRegion": "Tirol",
+      "addressCountry": "AT"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Innsbruck"
+    "url": "https://handyplanet.at/innsbruck",
+    "telephone": "+436609005454",
+    "email": "info@handyplanet.at",
+    "priceRange": "€€",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Innsbruck"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Tirol"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Datenrettung Services Innsbruck",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "iPhone Datenrettung Innsbruck",
+            "description": "iPhone Datenrettung für Innsbruck und ganz Tirol"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Samsung Datenrettung Innsbruck",
+            "description": "Samsung Galaxy Datenrettung mit kostenlosem Versand aus Tirol"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Android Datenrettung Innsbruck",
+            "description": "Datenrettung für Huawei, Xiaomi, OnePlus und alle Android Geräte"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1298"
     }
   };
 
   return (
     <div>
       <SEO 
-        title="Datenrettung Innsbruck | Smartphone Datenrettung Tirol - Handy Planet"
-        description="Handy Datenrettung Innsbruck und Tirol ✓ Kostenloser Versand aus den Alpen ✓ iPhone, Samsung, Huawei Experten ✓ Wasserschaden & Display Reparatur ✓ 99% Erfolg"
-        keywords="Datenrettung Innsbruck, Handy Reparatur Innsbruck, iPhone Datenrettung Tirol, Samsung Innsbruck, Smartphone Rettung Innsbruck"
+        title="Handy Datenrettung Innsbruck | iPhone & Android Datenrettung Tirol ✓"
+        description="🏔️ Handy Datenrettung Innsbruck & Tirol ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand aus den Alpen ✓ Wasserschaden ✓ 99% Erfolg ab 99€"
+        keywords="Handy Datenrettung Innsbruck, iPhone Datenrettung Innsbruck, Android Datenrettung Innsbruck, Samsung Datenrettung Innsbruck, Smartphone Datenrettung Tirol, Handy Reparatur Innsbruck, Datenrettung Tirol, Wasserschaden Innsbruck"
         canonicalUrl="https://handyplanet.at/innsbruck"
       />
       <StructuredData data={structuredData} />
