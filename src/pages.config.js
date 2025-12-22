@@ -23,6 +23,9 @@ import iphoneVsSamsungDatenrettung from './pages/iphone-vs-samsung-datenrettung'
 import geloeschteFotosWiederherstellen from './pages/geloeschte-fotos-wiederherstellen';
 import handyStartetNicht from './pages/handy-startet-nicht';
 import Ratgeber from './pages/Ratgeber';
+import handyWasserschadenDatenrettung from './pages/handy-wasserschaden-datenrettung';
+import handyDisplayDefektDatenwichtig from './pages/handy-display-defekt-datenwichtig';
+import androidBootloopStartetNicht from './pages/android-bootloop-startet-nicht';
 import __Layout from './Layout.jsx';
 
 
@@ -52,6 +55,9 @@ export const PAGES = {
     "geloeschte-fotos-wiederherstellen": geloeschteFotosWiederherstellen,
     "handy-startet-nicht": handyStartetNicht,
     "Ratgeber": Ratgeber,
+    "handy-wasserschaden-datenrettung": handyWasserschadenDatenrettung,
+    "handy-display-defekt-datenwichtig": handyDisplayDefektDatenwichtig,
+    "android-bootloop-startet-nicht": androidBootloopStartetNicht,
 }
 
 export const pagesConfig = {

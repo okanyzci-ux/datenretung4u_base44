@@ -14,42 +14,48 @@ export default function DamageTypesSection() {
       title: "Wasserschaden",
       description: "Ihr Handy ist ins Wasser gefallen? Wir retten Ihre Daten auch aus stark beschädigten Geräten.",
       successRate: "95%",
-      image: "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?w=400&q=80"
+      image: "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?w=400&q=80",
+      link: "handy-wasserschaden-datenrettung"
     },
     {
       icon: Smartphone,
       title: "Display defekt",
       description: "Gebrochenes Display, schwarzer Bildschirm? Kein Hindernis für unsere Datenrettungs-Experten.",
       successRate: "99%",
-      image: "https://images.unsplash.com/photo-1601972599720-36938d4ecd31?w=400&q=80"
+      image: "https://images.unsplash.com/photo-1601972599720-36938d4ecd31?w=400&q=80",
+      link: "handy-display-defekt-datenwichtig"
     },
     {
       icon: Cpu,
       title: "Platinenschaden",
       description: "Komplexe Platinenschäden erfordern Mikrochirurgie – unsere Spezialität mit höchster Präzision.",
       successRate: "90%",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80"
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80",
+      link: "platinenschaden-datenrettung"
     },
     {
       icon: RotateCcw,
       title: "Bootloop / Startet nicht",
       description: "Handy startet ständig neu oder gar nicht mehr? Wir finden die Ursache und retten Ihre Daten.",
       successRate: "98%",
-      image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=400&q=80"
+      image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=400&q=80",
+      link: "android-bootloop-startet-nicht"
     },
     {
       icon: Trash2,
       title: "Gelöschte Daten",
       description: "Versehentlich gelöscht oder formatiert? Unsere forensischen Tools können vieles wiederherstellen.",
       successRate: "85%",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&q=80"
+      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&q=80",
+      link: "geloeschte-daten-wiederherstellen"
     },
     {
       icon: Zap,
       title: "Elektronikschaden",
       description: "Überspannung, Kurzschluss oder andere elektronische Defekte – wir analysieren und retten.",
       successRate: "92%",
-      image: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=400&q=80"
+      image: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=400&q=80",
+      link: "Datenrettung"
     }
   ];
 
@@ -109,10 +115,10 @@ export default function DamageTypesSection() {
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{damage.title}</h3>
                 <p className="text-slate-600 mb-4">{damage.description}</p>
                 <Link
-                  to={createPageUrl("Datenrettung")}
+                  to={createPageUrl(damage.link)}
                   className="inline-flex items-center gap-2 text-cyan-600 font-medium hover:text-cyan-700 transition-colors group/link"
                 >
-                  Datenrettung anfragen
+                  Mehr erfahren
                   <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                 </Link>
               </div>
