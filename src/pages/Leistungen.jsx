@@ -15,6 +15,7 @@ export default function Leistungen() {
       title: "iPhone Datenrettung",
       description: "Professionelle Datenrettung für alle iPhone Modelle - vom iPhone 6 bis zum neuesten iPhone 15 Pro Max",
       features: ["Alle iOS Versionen", "Face ID Geräte", "Verschlüsselte Daten"],
+      link: "iphone-datenrettung",
       color: "from-slate-600 to-slate-700"
     },
     {
@@ -22,6 +23,7 @@ export default function Leistungen() {
       title: "Samsung Galaxy Datenrettung",
       description: "Samsung Galaxy Datenrettung für S-Serie, Note, A-Serie und alle weiteren Samsung Smartphones",
       features: ["Galaxy S24 Ultra", "Foldable Geräte", "Knox Verschlüsselung"],
+      link: "samsung-datenrettung",
       color: "from-blue-600 to-blue-700"
     },
     {
@@ -29,6 +31,7 @@ export default function Leistungen() {
       title: "Android Datenrettung",
       description: "Datenrettung für Huawei, Xiaomi, OnePlus, Google Pixel, Sony und alle Android Smartphones",
       features: ["Alle Hersteller", "Root-Geräte", "Custom ROMs"],
+      link: "android-datenrettung",
       color: "from-green-600 to-green-700"
     }
   ];
@@ -38,25 +41,29 @@ export default function Leistungen() {
       icon: Droplet,
       title: "Wasserschaden Datenrettung",
       description: "Spezialisiert auf Wasserschaden - vom kleinen Spritzer bis zum kompletten Untertauchen",
-      successRate: "94%"
+      successRate: "94%",
+      link: "wasserschaden-datenrettung"
     },
     {
       icon: Monitor,
       title: "Display Schaden",
       description: "Datenrettung bei zerstörtem Display, wenn das Gerät nicht mehr bedienbar ist",
-      successRate: "98%"
+      successRate: "98%",
+      link: "display-schaden-datenrettung"
     },
     {
       icon: Cpu,
       title: "Platinenschaden",
       description: "Komplexe Datenrettung bei Mainboard-Schäden und Chip-Level Reparaturen",
-      successRate: "89%"
+      successRate: "89%",
+      link: "platinenschaden-datenrettung"
     },
     {
       icon: Trash2,
       title: "Gelöschte Daten wiederherstellen",
       description: "Wiederherstellung versehentlich gelöschter Fotos, Videos, Kontakte und Nachrichten",
-      successRate: "92%"
+      successRate: "92%",
+      link: "geloeschte-daten-wiederherstellen"
     }
   ];
 
@@ -109,15 +116,19 @@ export default function Leistungen() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {deviceServices.map((service, index) => (
-              <motion.div
+              <Link
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100"
+                to={createPageUrl(service.link)}
+                className="block h-full"
               >
-                <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-6`}>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="h-full bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group"
+                >
+                <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
                   <service.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-3">
@@ -134,7 +145,12 @@ export default function Leistungen() {
                     </li>
                   ))}
                 </ul>
+                <div className="flex items-center gap-2 text-cyan-600 font-semibold group-hover:gap-3 transition-all">
+                  Mehr erfahren
+                  <ArrowRight className="w-5 h-5" />
+                </div>
               </motion.div>
+              </Link>
             ))}
           </div>
         </div>
@@ -159,18 +175,22 @@ export default function Leistungen() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {damageServices.map((service, index) => (
-              <motion.div
+              <Link
+                to={createPageUrl(service.link)}
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100"
+                className="block"
               >
-                <div className="flex items-start justify-between mb-4">
-                  <div className="w-14 h-14 rounded-xl bg-cyan-500/10 flex items-center justify-center">
-                    <service.icon className="w-7 h-7 text-cyan-600" />
-                  </div>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group h-full"
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="w-14 h-14 rounded-xl bg-cyan-500/10 flex items-center justify-center group-hover:bg-cyan-500 transition-colors">
+                      <service.icon className="w-7 h-7 text-cyan-600 group-hover:text-white transition-colors" />
+                    </div>
                   <div className="text-right">
                     <div className="text-2xl font-bold text-cyan-600">{service.successRate}</div>
                     <div className="text-xs text-slate-500">Erfolgsquote</div>
@@ -179,10 +199,15 @@ export default function Leistungen() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-3">
                   {service.title}
                 </h3>
-                <p className="text-slate-600">
+                <p className="text-slate-600 mb-4">
                   {service.description}
                 </p>
-              </motion.div>
+                <div className="flex items-center gap-2 text-cyan-600 font-semibold group-hover:gap-3 transition-all">
+                  Service Details
+                  <ArrowRight className="w-5 h-5" />
+                </div>
+                </motion.div>
+                </Link>
             ))}
           </div>
         </div>

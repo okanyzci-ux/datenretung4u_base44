@@ -17,6 +17,8 @@ import samsungDatenrettung from './pages/samsung-datenrettung';
 import androidDatenrettung from './pages/android-datenrettung';
 import wasserschadenDatenrettung from './pages/wasserschaden-datenrettung';
 import displaySchadenDatenrettung from './pages/display-schaden-datenrettung';
+import platinenschadenDatenrettung from './pages/platinenschaden-datenrettung';
+import geloeschteDatenWiederherstellen from './pages/geloeschte-daten-wiederherstellen';
 import __Layout from './Layout.jsx';
 
 
@@ -40,6 +42,8 @@ export const PAGES = {
     "android-datenrettung": androidDatenrettung,
     "wasserschaden-datenrettung": wasserschadenDatenrettung,
     "display-schaden-datenrettung": displaySchadenDatenrettung,
+    "platinenschaden-datenrettung": platinenschadenDatenrettung,
+    "geloeschte-daten-wiederherstellen": geloeschteDatenWiederherstellen,
 }
 
 export const pagesConfig = {
