@@ -19,6 +19,9 @@ import wasserschadenDatenrettung from './pages/wasserschaden-datenrettung';
 import displaySchadenDatenrettung from './pages/display-schaden-datenrettung';
 import platinenschadenDatenrettung from './pages/platinenschaden-datenrettung';
 import geloeschteDatenWiederherstellen from './pages/geloeschte-daten-wiederherstellen';
+import iphoneVsSamsungDatenrettung from './pages/iphone-vs-samsung-datenrettung';
+import geloeschteFotosWiederherstellen from './pages/geloeschte-fotos-wiederherstellen';
+import handyStartetNicht from './pages/handy-startet-nicht';
 import __Layout from './Layout.jsx';
 
 
@@ -44,6 +47,9 @@ export const PAGES = {
     "display-schaden-datenrettung": displaySchadenDatenrettung,
     "platinenschaden-datenrettung": platinenschadenDatenrettung,
     "geloeschte-daten-wiederherstellen": geloeschteDatenWiederherstellen,
+    "iphone-vs-samsung-datenrettung": iphoneVsSamsungDatenrettung,
+    "geloeschte-fotos-wiederherstellen": geloeschteFotosWiederherstellen,
+    "handy-startet-nicht": handyStartetNicht,
 }
 
 export const pagesConfig = {
