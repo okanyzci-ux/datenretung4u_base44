@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "../components/home/HeroSection";
+import ServicesPreview from "../components/home/ServicesPreview";
 import TrustSection from "../components/home/TrustSection";
 import ProcessSection from "../components/home/ProcessSection";
 import DamageTypesSection from "../components/home/DamageTypesSection";
@@ -57,6 +58,7 @@ export default function Home() {
       />
       <StructuredData data={structuredData} />
       <HeroSection />
+      <ServicesPreview />
       <TrustSection />
       <ProcessSection />
       <DamageTypesSection />
