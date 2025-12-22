@@ -7,7 +7,7 @@ import TrustSection from "../components/home/TrustSection";
 import TestimonialsSection from "../components/home/TestimonialsSection";
 import SEO, { StructuredData } from "../components/SEO";
 
-export default function DatenrettungSalzburg() {
+export default function HandyDatenRettungSalzburg() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -20,7 +20,7 @@ export default function DatenrettungSalzburg() {
       "addressRegion": "Salzburg",
       "addressCountry": "AT"
     },
-    "url": "https://datenrettung4u.at/datenrettung-salzburg",
+    "url": "https://datenrettung4u.at/handy-daten-rettung-salzburg",
     "telephone": "+436609005454",
     "email": "info@datenrettung4u.at",
     "priceRange": "€€",
@@ -77,7 +77,7 @@ export default function DatenrettungSalzburg() {
         title="Handy Datenrettung Salzburg | iPhone & Android Datenrettung Mozartstadt ✓"
         description="📱 Handy Datenrettung Salzburg ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand ✓ Wasserschaden Experten ✓ 99% Erfolg ✓ Faire Preise ab 99€"
         keywords="Handy Datenrettung Salzburg, iPhone Datenrettung Salzburg, Android Datenrettung Salzburg, Samsung Datenrettung Salzburg, Smartphone Reparatur Salzburg, Handy Reparatur Mozartstadt, Datenrettung Salzburg Stadt, Wasserschaden Salzburg"
-        canonicalUrl="https://datenrettung4u.at/datenrettung-salzburg"
+        canonicalUrl="https://datenrettung4u.at/handy-daten-rettung-salzburg"
       />
       <StructuredData data={structuredData} />
       <CityHero 

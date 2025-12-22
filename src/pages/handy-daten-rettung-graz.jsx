@@ -7,7 +7,7 @@ import TrustSection from "../components/home/TrustSection";
 import TestimonialsSection from "../components/home/TestimonialsSection";
 import SEO, { StructuredData } from "../components/SEO";
 
-export default function DatenrettungGraz() {
+export default function HandyDatenRettungGraz() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -20,7 +20,7 @@ export default function DatenrettungGraz() {
       "addressRegion": "Steiermark",
       "addressCountry": "AT"
     },
-    "url": "https://datenrettung4u.at/datenrettung-graz",
+    "url": "https://datenrettung4u.at/handy-daten-rettung-graz",
     "telephone": "+436609005454",
     "email": "info@datenrettung4u.at",
     "priceRange": "€€",
@@ -77,7 +77,7 @@ export default function DatenrettungGraz() {
         title="Handy Datenrettung Graz | iPhone & Android Datenrettung Steiermark ✓"
         description="🔧 Handy Datenrettung Graz & Steiermark ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand ✓ Wasserschaden & Platine ✓ 99% Erfolg ✓ Ab 99€"
         keywords="Handy Datenrettung Graz, iPhone Datenrettung Graz, Android Datenrettung Graz, Samsung Datenrettung Graz, Smartphone Datenrettung Steiermark, Handy Reparatur Graz, Datenrettung Steiermark, Wasserschaden Graz, Display Reparatur Graz"
-        canonicalUrl="https://datenrettung4u.at/datenrettung-graz"
+        canonicalUrl="https://datenrettung4u.at/handy-daten-rettung-graz"
       />
       <StructuredData data={structuredData} />
       <CityHero 

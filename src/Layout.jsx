@@ -23,11 +23,11 @@ export default function Layout({ children, currentPageName }) {
   }, [currentPageName]);
 
   const standorte = [
-    { name: "Linz", page: "datenrettung-linz" },
-    { name: "Wien", page: "datenrettung-wien" },
-    { name: "Graz", page: "datenrettung-graz" },
-    { name: "Salzburg", page: "datenrettung-salzburg" },
-    { name: "Innsbruck", page: "datenrettung-innsbruck" }
+    { name: "Linz", page: "handy-daten-rettung-linz" },
+    { name: "Wien", page: "handy-daten-rettung-wien" },
+    { name: "Graz", page: "handy-daten-rettung-graz" },
+    { name: "Salzburg", page: "handy-daten-rettung-salzburg" },
+    { name: "Innsbruck", page: "handy-daten-rettung-innsbruck" }
   ];
 
   const navLinks = [

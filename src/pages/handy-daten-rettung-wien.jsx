@@ -7,7 +7,7 @@ import TrustSection from "../components/home/TrustSection";
 import TestimonialsSection from "../components/home/TestimonialsSection";
 import SEO, { StructuredData } from "../components/SEO";
 
-export default function DatenrettungWien() {
+export default function HandyDatenRettungWien() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -20,7 +20,7 @@ export default function DatenrettungWien() {
       "addressRegion": "Wien",
       "addressCountry": "AT"
     },
-    "url": "https://datenrettung4u.at/datenrettung-wien",
+    "url": "https://datenrettung4u.at/handy-daten-rettung-wien",
     "telephone": "+436609005454",
     "email": "info@datenrettung4u.at",
     "priceRange": "€€",
@@ -77,7 +77,7 @@ export default function DatenrettungWien() {
         title="Handy Datenrettung Wien | iPhone & Android Datenrettung Express ✓"
         description="📱 Handy Datenrettung Wien ✓ iPhone Datenrettung ✓ Samsung & Android Datenrettung ✓ Kostenloser Versand ✓ 24-48h Express ✓ Wasserschaden Experten ✓ 99% Erfolgsquote"
         keywords="Handy Datenrettung Wien, iPhone Datenrettung Wien, Android Datenrettung Wien, Samsung Datenrettung Wien, Smartphone Reparatur Wien, Datenrettung Bundeshauptstadt, Handy Reparatur Wien 1010, Wasserschaden Wien, Display Reparatur Wien"
-        canonicalUrl="https://datenrettung4u.at/datenrettung-wien"
+        canonicalUrl="https://datenrettung4u.at/handy-daten-rettung-wien"
       />
       <StructuredData data={structuredData} />
       <CityHero 
