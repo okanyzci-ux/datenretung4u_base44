@@ -33,8 +33,9 @@ export default function Layout({ children, currentPageName }) {
   const navLinks = [
     { name: "Startseite", page: "Home" },
     { name: "Datenrettung", page: "Datenrettung" },
+    { name: "Leistungen", page: "Leistungen" },
     { name: "Preise", page: "Preise" },
-    { name: "Ablauf", page: "Ablauf" },
+    { name: "Ratgeber", page: "Ratgeber" },
     { name: "Über Uns", page: "UeberUns" },
     { name: "Kontakt", page: "Kontakt" }
   ];
