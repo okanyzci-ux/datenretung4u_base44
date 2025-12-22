@@ -11,9 +11,6 @@ import handyDatenRettungInnsbruck from './pages/handy-daten-rettung-innsbruck';
 import handyDatenRettungLinz from './pages/handy-daten-rettung-linz';
 import handyDatenRettungSalzburg from './pages/handy-daten-rettung-salzburg';
 import handyDatenRettungWien from './pages/handy-daten-rettung-wien';
-import Leistungen from './pages/Leistungen';
-import Ratgeber from './pages/Ratgeber';
-import handyWasserschadenErsteHilfe from './pages/handy-wasserschaden-erste-hilfe';
 import __Layout from './Layout.jsx';
 
 
@@ -31,9 +28,6 @@ export const PAGES = {
     "handy-daten-rettung-linz": handyDatenRettungLinz,
     "handy-daten-rettung-salzburg": handyDatenRettungSalzburg,
     "handy-daten-rettung-wien": handyDatenRettungWien,
-    "Leistungen": Leistungen,
-    "Ratgeber": Ratgeber,
-    "handy-wasserschaden-erste-hilfe": handyWasserschadenErsteHilfe,
 }
 
 export const pagesConfig = {
