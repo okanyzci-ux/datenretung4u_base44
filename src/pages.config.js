@@ -22,6 +22,7 @@ import geloeschteDatenWiederherstellen from './pages/geloeschte-daten-wiederhers
 import iphoneVsSamsungDatenrettung from './pages/iphone-vs-samsung-datenrettung';
 import geloeschteFotosWiederherstellen from './pages/geloeschte-fotos-wiederherstellen';
 import handyStartetNicht from './pages/handy-startet-nicht';
+import Ratgeber from './pages/Ratgeber';
 import __Layout from './Layout.jsx';
 
 
@@ -50,6 +51,7 @@ export const PAGES = {
     "iphone-vs-samsung-datenrettung": iphoneVsSamsungDatenrettung,
     "geloeschte-fotos-wiederherstellen": geloeschteFotosWiederherstellen,
     "handy-startet-nicht": handyStartetNicht,
+    "Ratgeber": Ratgeber,
 }
 
 export const pagesConfig = {
