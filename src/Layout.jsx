@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { createPageUrl } from "./utils";
 import { 
   Phone, Mail, MapPin, Menu, X, ChevronDown, 
-  Facebook, Instagram, Youtube, Shield, Award, Clock
+  Facebook, Instagram, Youtube, Shield, Award, Clock, ArrowLeft
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Layout({ children, currentPageName }) {
+  const navigate = useNavigate();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [standorteOpen, setStandorteOpen] = useState(false);
@@ -92,6 +93,17 @@ export default function Layout({ children, currentPageName }) {
           </div>
         </div>
       </div>
+
+      {/* Mobile Back Button */}
+      {currentPageName !== "Home" && (
+        <button
+          onClick={() => navigate(-1)}
+          className="lg:hidden fixed bottom-6 left-6 z-50 w-12 h-12 bg-cyan-500 hover:bg-cyan-600 text-white rounded-full shadow-lg flex items-center justify-center transition-all active:scale-95"
+          aria-label="Zurück"
+        >
+          <ArrowLeft className="w-5 h-5" />
+        </button>
+      )}
 
       {/* Main Navigation */}
       <header className={`sticky top-0 z-50 transition-all duration-300 ${
