@@ -12,6 +12,11 @@ import handyDatenRettungLinz from './pages/handy-daten-rettung-linz';
 import handyDatenRettungSalzburg from './pages/handy-daten-rettung-salzburg';
 import handyDatenRettungWien from './pages/handy-daten-rettung-wien';
 import Leistungen from './pages/Leistungen';
+import iphoneDatenrettung from './pages/iphone-datenrettung';
+import samsungDatenrettung from './pages/samsung-datenrettung';
+import androidDatenrettung from './pages/android-datenrettung';
+import wasserschadenDatenrettung from './pages/wasserschaden-datenrettung';
+import displaySchadenDatenrettung from './pages/display-schaden-datenrettung';
 import __Layout from './Layout.jsx';
 
 
@@ -30,6 +35,11 @@ export const PAGES = {
     "handy-daten-rettung-salzburg": handyDatenRettungSalzburg,
     "handy-daten-rettung-wien": handyDatenRettungWien,
     "Leistungen": Leistungen,
+    "iphone-datenrettung": iphoneDatenrettung,
+    "samsung-datenrettung": samsungDatenrettung,
+    "android-datenrettung": androidDatenrettung,
+    "wasserschaden-datenrettung": wasserschadenDatenrettung,
+    "display-schaden-datenrettung": displaySchadenDatenrettung,
 }
 
 export const pagesConfig = {
