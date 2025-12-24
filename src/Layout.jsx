@@ -113,9 +113,11 @@ export default function Layout({ children, currentPageName }) {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to={createPageUrl("Home")} className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
-                <Shield className="w-6 h-6 text-white" />
-              </div>
+              <img 
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694861f811e0d195457d9bab/d3e5d774d_Untitleddesign.png"
+                alt="DatenRettung4U"
+                className="w-12 h-12 rounded-xl shadow-lg"
+              />
               <div>
                 <span className="text-xl font-bold text-slate-900">DatenRettung</span>
                 <span className="text-xl font-bold text-cyan-500">4U</span>
@@ -257,9 +259,11 @@ export default function Layout({ children, currentPageName }) {
             {/* Company Info */}
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-white" />
-                </div>
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694861f811e0d195457d9bab/d3e5d774d_Untitleddesign.png"
+                  alt="DatenRettung4U"
+                  className="w-10 h-10 rounded-xl"
+                />
                 <div>
                   <span className="text-lg font-bold">DatenRettung</span>
                   <span className="text-lg font-bold text-cyan-400">4U</span>
