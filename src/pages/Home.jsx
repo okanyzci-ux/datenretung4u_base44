@@ -49,22 +49,24 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <>
       <SEO 
-        title="Smartphone Datenrettung Österreich | DatenRettung4U - 99% Erfolgsquote"
-        description="Professionelle Smartphone Datenrettung in Österreich ✓ 99% Erfolgsquote ✓ Kostenlose Diagnose ✓ Wasserschaden, Sturzschaden, Platinenschaden ✓ Keine Daten, keine Kosten"
+        title="Professionelle Smartphone Datenrettung in Österreich | 99% Erfolgsquote | DatenRettung4U"
+        description="Spezialisierte Datenrettung für Smartphones in ganz Österreich. Wasserschaden, Displayschaden & Platinenschäden - 99% Erfolgsquote. Kostenlose Diagnose & Versand. Keine Daten = Keine Kosten. Jetzt anfragen!"
         keywords="Datenrettung, Smartphone Datenrettung, Handy Datenrettung, iPhone Datenrettung, Samsung Datenrettung, Wasserschaden, Platinenschaden, Datenrettung Österreich, Datenrettung Linz"
         canonicalUrl="https://datenrettung4u.at"
       />
       <StructuredData data={structuredData} />
-      <HeroSection />
-      <ServicesPreview />
-      <TrustSection />
-      <ProcessSection />
-      <DamageTypesSection />
-      <BrandsSection />
-      <TestimonialsSection />
-      <CTASection />
-    </div>
+      <div>
+        <HeroSection />
+        <ServicesPreview />
+        <TrustSection />
+        <ProcessSection />
+        <DamageTypesSection />
+        <BrandsSection />
+        <TestimonialsSection />
+        <CTASection />
+      </div>
+    </>
   );
 }
