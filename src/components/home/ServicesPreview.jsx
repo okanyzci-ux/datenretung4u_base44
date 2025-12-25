@@ -8,27 +8,27 @@ export default function ServicesPreview() {
   const services = [
     {
       icon: Smartphone,
-      title: "iPhone & Android",
-      description: "Alle Smartphone-Marken und Modelle",
-      link: "Leistungen"
+      title: "iPhone Datenrettung",
+      description: "Spezialisiert auf alle iPhone Modelle",
+      link: "iphone-datenrettung"
     },
     {
       icon: Droplet,
       title: "Wasserschaden",
-      description: "94% Erfolgsquote bei Wasserschäden",
-      link: "handy-wasserschaden-erste-hilfe"
+      description: "95% Erfolgsquote bei Wasserschäden",
+      link: "wasserschaden-datenrettung"
     },
     {
       icon: Cpu,
       title: "Platinenschaden",
-      description: "Chip-Level Datenrettung",
-      link: "Leistungen"
+      description: "Chip-Level Reparatur im Reinraumlabor",
+      link: "platinenschaden-datenrettung"
     },
     {
       icon: BookOpen,
-      title: "Ratgeber & Tipps",
-      description: "Erste Hilfe und Expertenwissen",
-      link: "Ratgeber"
+      title: "Android Datenrettung",
+      description: "Samsung, Huawei, Google & mehr",
+      link: "android-datenrettung"
     }
   ];
 
