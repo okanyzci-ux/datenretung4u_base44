@@ -43,10 +43,10 @@ export default function GeloeschteDatenWiederherstellen() {
           >
             <Trash2 className="w-12 h-12 text-amber-300 mb-6" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-amber-300">Gelöschte Daten</span> wiederherstellen
+              <span className="text-amber-300">Gelöschte Daten</span> wiederherstellen – Professionelle Datenrettung in Österreich
             </h1>
             <p className="text-xl text-amber-100 mb-8">
-              Versehentlich gelöscht? Nach Formatierung? Wir retten Ihre Fotos, Videos, WhatsApp Chats und mehr – 92% Erfolgsquote
+              Wenn Daten versehentlich gelöscht wurden oder nach einer Formatierung verloren sind, können wir bei DatenRettung4U helfen. Mit unserer Erfahrung aus täglichen Datenrettungsfällen in ganz Österreich retten wir Ihre Fotos, Videos, WhatsApp Chats und mehr – 92% Erfolgsquote.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -157,7 +157,7 @@ export default function GeloeschteDatenWiederherstellen() {
           </h2>
           <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">
             Wenn Daten "gelöscht" werden, sind sie nicht wirklich weg – nur unsichtbar. 
-            Mit spezieller Software können wir sie wiederherstellen, solange sie nicht überschrieben wurden.
+            Mit professioneller Datenrettung und spezialisierter Software können wir sie wiederherstellen, solange sie nicht überschrieben wurden. Unsere Erfahrung aus Österreich zeigt: Je schneller Sie handeln, desto besser die Erfolgsaussichten.
           </p>
 
           <div className="space-y-4">
@@ -215,6 +215,95 @@ export default function GeloeschteDatenWiederherstellen() {
                 <div className="text-3xl font-bold text-red-400 mb-2">50%</div>
                 <p className="text-sm text-slate-300">Nach intensiver Weiternutzung</p>
               </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Zusammenfassung */}
+      <section className="py-20 bg-amber-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Zusammenfassung</h2>
+            <div className="bg-white rounded-2xl p-8 border border-amber-200">
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum Daten "gelöscht" aussehen:</strong> Gelöschte Dateien werden nur unsichtbar markiert, bleiben aber physisch auf dem Speicher, bis sie überschrieben werden.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann Selbstversuche riskant sind:</strong> Recovery-Apps können Daten überschreiben. Bei wichtigen Daten sollten Sie sofort das Gerät ausschalten und professionelle Hilfe kontaktieren.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann eine professionelle Datenrettung sinnvoll ist:</strong> Bei versehentlichem Löschen, nach Formatierung oder Werksreset – besonders wenn es um unwiederbringliche Erinnerungen oder geschäftliche Daten geht.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum eine Datenrettung in Österreich oft erfolgreich ist:</strong> Mit zertifizierter Datenrettung und modernen Technologien erreichen wir 92% Erfolgsquote – auch ohne Backup.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
+              Häufige Fragen zur Datenrettung in Österreich
+            </h2>
+            <div className="space-y-4">
+              {[
+                {
+                  q: "Kann man gelöschte Daten nach Formatierung wiederherstellen?",
+                  a: "Ja, in vielen Fällen ist eine Wiederherstellung möglich. Nach einer Formatierung werden Dateien nicht sofort physisch gelöscht, sondern nur als 'überschreibbar' markiert. Mit professioneller Datenrettung können wir diese Daten oft noch extrahieren – vorausgesetzt, sie wurden nicht bereits überschrieben."
+                },
+                {
+                  q: "Wie lange dauert eine Datenrettung?",
+                  a: "Die Dauer hängt vom Schadensbild ab. Einfache Software-Wiederherstellungen können innerhalb von 24-48 Stunden abgeschlossen sein. Bei komplexeren Fällen mit Hardware-Schäden kann es 3-7 Werktage dauern. Express-Service ist nach Absprache möglich."
+                },
+                {
+                  q: "Was kostet eine Datenrettung in Österreich?",
+                  a: "Die Kosten variieren je nach Aufwand und Schadensart. Die Diagnose ist bei uns kostenlos. Danach erhalten Sie ein transparentes Angebot. Bei uns gilt: Keine Daten, keine Kosten – Sie zahlen nur bei erfolgreicher Wiederherstellung."
+                },
+                {
+                  q: "Sind meine Daten während der Rettung sicher?",
+                  a: "Ja, Datenschutz hat höchste Priorität. Alle Datenrettungsprozesse erfolgen in gesicherten Laboren, und Ihre Daten werden vertraulich behandelt und nach erfolgreicher Übergabe sicher gelöscht."
+                },
+                {
+                  q: "Funktioniert Datenrettung auch ohne Backup?",
+                  a: "Ja, professionelle Datenrettung funktioniert auch komplett ohne Backup. Wir arbeiten direkt mit dem Gerätespeicher und können Daten wiederherstellen, selbst wenn nie ein Backup angelegt wurde."
+                },
+                {
+                  q: "Kann ich gelöschte WhatsApp Nachrichten wiederherstellen?",
+                  a: "Ja, WhatsApp Nachrichten, Bilder und Videos können wir mit 90% Erfolgsquote wiederherstellen – auch wenn kein Cloud-Backup vorhanden ist. Wichtig ist, das Gerät nach dem Löschen nicht weiter zu verwenden."
+                }
+              ].map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 border border-slate-200">
+                  <h3 className="font-bold text-slate-900 mb-3">{faq.q}</h3>
+                  <p className="text-slate-700">{faq.a}</p>
+                </div>
+              ))}
             </div>
           </motion.div>
         </div>

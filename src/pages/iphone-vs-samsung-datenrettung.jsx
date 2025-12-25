@@ -81,10 +81,10 @@ export default function IPhoneVsSamsungDatenrettung() {
               <Smartphone className="w-10 h-10 text-blue-400" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              iPhone vs Samsung <span className="text-cyan-400">Datenrettung</span>
+              iPhone vs Samsung <span className="text-cyan-400">Datenrettung</span> – Vergleich & Unterschiede in Österreich
             </h1>
             <p className="text-xl text-slate-300 mb-4">
-              Die wichtigsten Unterschiede zwischen iOS und Android Datenrettung im Experten-Vergleich
+              iPhone und Samsung sind die beliebtesten Smartphone-Marken, doch bei der Datenrettung unterscheiden sie sich fundamental. Bei DatenRettung4U retten wir täglich beide Systeme in ganz Österreich. Mit unserer Erfahrung aus täglichen Datenrettungsfällen erreichen wir 99% Erfolgsquote bei iPhone und 98% bei Samsung. In diesem Experten-Vergleich erklären wir die wichtigsten Unterschiede.
             </p>
             <div className="flex items-center gap-2 text-slate-400">
               <Clock className="w-5 h-5" />
@@ -104,8 +104,8 @@ export default function IPhoneVsSamsungDatenrettung() {
           >
             <p className="text-lg text-slate-700 mb-6">
               iPhone und Samsung Galaxy Smartphones sind die beiden beliebtesten Smartphone-Marken weltweit. 
-              Doch wenn es um Datenrettung geht, unterscheiden sie sich fundamental. 
-              Hier erfahren Sie, welche Herausforderungen beide Systeme mit sich bringen.
+              Doch wenn es um professionelle Datenrettung geht, unterscheiden sie sich fundamental. 
+              Hier erfahren Sie, welche Herausforderungen beide Systeme mit sich bringen und warum unsere Erfahrung aus Österreich bei beiden Plattformen entscheidend ist.
             </p>
           </motion.div>
         </div>
@@ -224,6 +224,95 @@ export default function IPhoneVsSamsungDatenrettung() {
                 Erfolgsquoten rettbar (iPhone 99%, Samsung 98%). Wichtig ist, dass der Datenretter Erfahrung mit 
                 beiden Plattformen hat.
               </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Zusammenfassung */}
+      <section className="py-20 bg-slate-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Zusammenfassung</h2>
+            <div className="bg-white rounded-2xl p-8 border border-slate-200">
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum sich iPhone und Samsung unterscheiden:</strong> iPhone mit iOS FileVault-Verschlüsselung und geschlossener Architektur vs. Samsung mit Knox und offenerem Android-System erfordern jeweils spezialisierte Kenntnisse.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann Selbstversuche riskant sind:</strong> Beide Systeme haben starke Verschlüsselung. Falsche Recovery-Versuche können biometrische Sperren auslösen oder Daten unwiederbringlich verschlüsseln.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann eine professionelle Datenrettung sinnvoll ist:</strong> Bei defekter Hardware (fest verlöteter Speicher), nach Wasserschaden oder wenn biometrische Entsperrung nicht mehr funktioniert.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum eine Datenrettung in Österreich oft erfolgreich ist:</strong> Mit zertifizierter Datenrettung und spezialisierten Tools für beide Plattformen erreichen wir 99% Erfolgsquote bei iPhone und 98% bei Samsung.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
+              Häufige Fragen zur Datenrettung in Österreich
+            </h2>
+            <div className="space-y-4">
+              {[
+                {
+                  q: "Ist iPhone oder Samsung schwieriger bei der Datenrettung?",
+                  a: "Beide haben einzigartige Herausforderungen. iPhone hat eine stärkere Verschlüsselung und fest verlöteten Speicher, was Chip-Auslese erfordert. Samsung mit Knox ist ebenfalls anspruchsvoll, bietet aber durch Android etwas mehr Zugriffsmöglichkeiten. Mit professioneller Expertise sind beide sehr gut rettbar."
+                },
+                {
+                  q: "Wie lange dauert iPhone vs Samsung Datenrettung?",
+                  a: "Die Dauer ist bei beiden ähnlich: 24-48 Stunden bei Software-Problemen, 3-7 Werktage bei Hardware-Defekten. iPhone kann bei Chip-Auslese etwas länger dauern."
+                },
+                {
+                  q: "Was kostet Datenrettung für iPhone vs Samsung in Österreich?",
+                  a: "Die Kosten hängen vom Schadensfall ab, nicht von der Marke. Software-Rettung ab €149, Hardware-Reparatur ab €299. iPhone kann bei Chip-Level Arbeit teurer sein. Wichtig: Keine Daten, keine Kosten."
+                },
+                {
+                  q: "Sind iPhone Daten sicherer als Samsung Daten?",
+                  a: "Beide Systeme haben sehr starke Verschlüsselung. iPhone mit FileVault und Samsung mit Knox bieten vergleichbares Sicherheitsniveau. Für Datenrettung ist beides anspruchsvoll – aber mit Expertise lösbar."
+                },
+                {
+                  q: "Kann man ohne Passcode iPhone/Samsung Daten retten?",
+                  a: "Bei Hardware-Schäden (nicht mehr startend) können wir oft auch ohne Passcode Daten retten – durch direkte Chip-Auslese. Bei funktionierendem Gerät ist der Passcode wegen der Verschlüsselung meist nötig."
+                },
+                {
+                  q: "Welche Marke ist besser für Datenrettung: iPhone oder Samsung?",
+                  a: "Aus Datenrettungssicht sind beide vergleichbar gut. Wichtiger als die Marke ist, dass Sie ein aktuelles Backup haben und im Notfall schnell professionelle Hilfe holen. Wir erreichen bei beiden sehr hohe Erfolgsquoten."
+                }
+              ].map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 border border-slate-200">
+                  <h3 className="font-bold text-slate-900 mb-3">{faq.q}</h3>
+                  <p className="text-slate-700">{faq.a}</p>
+                </div>
+              ))}
             </div>
           </motion.div>
         </div>

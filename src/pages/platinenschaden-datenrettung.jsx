@@ -32,10 +32,10 @@ export default function PlatinenschadenDatenrettung() {
           >
             <Cpu className="w-12 h-12 text-purple-300 mb-6" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-purple-300">Platinenschaden</span> Datenrettung
+              <span className="text-purple-300">Platinenschaden</span> Datenrettung – Chip-Level Reparatur in Österreich
             </h1>
             <p className="text-xl text-purple-100 mb-8">
-              Mainboard defekt? Wir retten Ihre Daten mit Chip-Level Reparatur im Reinraumlabor – 89% Erfolgsquote bei Platinenschäden
+              Wenn die Platine defekt ist, sind konventionelle Methoden oft machtlos. Bei DatenRettung4U retten wir täglich Geräte mit Platinenschäden in ganz Österreich. Mit professioneller Datenrettung und Chip-Level Reparatur im Reinraumlabor erreichen wir 89% Erfolgsquote – auch bei Kurzschluss, Korrosion oder defekten Chips.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -70,7 +70,7 @@ export default function PlatinenschadenDatenrettung() {
             <p className="text-lg text-slate-700 mb-6">
               Die Platine (auch Mainboard oder Logicboard genannt) ist das Herzstück Ihres Smartphones. 
               Sie verbindet alle Komponenten und enthält wichtige Chips wie CPU, RAM und Speicher-Controller. 
-              Bei einem Platinenschaden ist oft eine Chip-Level Reparatur nötig.
+              Bei einem Platinenschaden ist oft eine professionelle Datenrettung mit Chip-Level Reparatur nötig. Unsere Erfahrung aus täglichen Datenrettungsfällen in Österreich zeigt: Selbst bei schweren Platinenschäden ist eine Rettung in den meisten Fällen möglich.
             </p>
             <div className="bg-purple-50 border border-purple-200 rounded-xl p-6">
               <h3 className="font-bold text-slate-900 mb-4">Häufige Anzeichen:</h3>
@@ -188,6 +188,95 @@ export default function PlatinenschadenDatenrettung() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Zusammenfassung */}
+      <section className="py-20 bg-purple-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Zusammenfassung</h2>
+            <div className="bg-white rounded-2xl p-8 border border-purple-200">
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum Platinenschäden auftreten:</strong> Ursachen sind Kurzschlüsse, defekte Chips (CPU/Speicher-Controller), Korrosion durch Feuchtigkeit oder Überhitzung. Die Platine ist das Herzstück des Smartphones.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann Selbstversuche riskant sind:</strong> Bei Platinenschäden ist professionelle Chip-Level Reparatur im Reinraumlabor nötig. Selbstversuche können die Platine weiter beschädigen und eine Rettung unmöglich machen.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann eine professionelle Datenrettung sinnvoll ist:</strong> Wenn das Gerät nicht mehr startet, nach Wasserschaden mit Korrosion, bei Überhitzung oder wenn konventionelle Reparaturen gescheitert sind.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum eine Datenrettung in Österreich oft erfolgreich ist:</strong> Mit zertifizierter Datenrettung, Chip-Level Reparatur im Reinraumlabor und NAND-Speicher Direktauslese erreichen wir 89% Erfolgsquote bei Platinenschäden.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
+              Häufige Fragen zur Datenrettung in Österreich
+            </h2>
+            <div className="space-y-4">
+              {[
+                {
+                  q: "Kann man Daten retten, wenn die Platine defekt ist?",
+                  a: "Ja, in den meisten Fällen ist eine Datenrettung möglich. Mit Chip-Level Reparatur im Reinraumlabor können wir defekte Chips reparieren oder den Speicher direkt auslesen. Erfolgsquote liegt bei 89%."
+                },
+                {
+                  q: "Wie lange dauert eine Platinenschaden-Datenrettung?",
+                  a: "Chip-Level Reparaturen sind komplex und dauern meist 5-7 Werktage. Bei dringenden Fällen bieten wir Express-Service (3-4 Tage) an. Die Diagnose dauert 24-48 Stunden."
+                },
+                {
+                  q: "Was kostet eine Platinenschaden Datenrettung in Österreich?",
+                  a: "Chip-Level Reparaturen starten ab €399. Die genauen Kosten hängen vom Schadensumfang ab. Diagnose ist kostenlos. Wichtig: Keine Daten, keine Kosten."
+                },
+                {
+                  q: "Sind meine Daten bei Chip-Level Reparatur sicher?",
+                  a: "Ja, alle Prozesse erfolgen in gesicherten Reinraumlaboren. Datenschutz hat höchste Priorität. Ihre Daten werden vertraulich behandelt und nach Übergabe sicher gelöscht."
+                },
+                {
+                  q: "Ist Datenrettung nach Wasserschaden mit Platinenschaden möglich?",
+                  a: "Ja, auch bei Korrosion durch Wasserschaden können wir oft Daten retten. Wichtig: Gerät nicht einschalten und sofort zu uns bringen. Wir entfernen die Korrosion und reparieren die Leiterbahnen."
+                },
+                {
+                  q: "Was ist der Unterschied zwischen normaler Reparatur und Chip-Level?",
+                  a: "Normale Reparatur tauscht Komponenten aus. Chip-Level Reparatur arbeitet auf Mikroskop-Ebene direkt mit einzelnen Chips, Leiterbahnen und dem NAND-Speicher – nötig bei schweren Platinenschäden."
+                }
+              ].map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 border border-slate-200">
+                  <h3 className="font-bold text-slate-900 mb-3">{faq.q}</h3>
+                  <p className="text-slate-700">{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
         </div>
       </section>
 

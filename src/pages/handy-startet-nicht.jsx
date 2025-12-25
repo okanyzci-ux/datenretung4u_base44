@@ -62,10 +62,10 @@ export default function HandyStartetNicht() {
           >
             <Power className="w-12 h-12 text-red-400 mb-6" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Handy <span className="text-red-400">startet nicht</span> mehr?
+              Handy <span className="text-red-400">startet nicht</span> mehr – Ursachen & Datenrettung in Österreich
             </h1>
             <p className="text-xl text-slate-300 mb-4">
-              Black Screen, Bootloop oder hängt beim Logo? Die häufigsten Ursachen und wie wir Ihre Daten retten können
+              Wenn ein Smartphone nicht mehr startet, sind wichtige Daten oft in Gefahr. Bei DatenRettung4U retten wir täglich Geräte in ganz Österreich – auch bei Black Screen, Bootloop oder wenn das Logo hängt. Mit professioneller Datenrettung erreichen wir 95% Erfolgsquote. In diesem Ratgeber erklären wir die häufigsten Ursachen und Lösungen.
             </p>
             <div className="flex items-center gap-2 text-slate-400">
               <Clock className="w-5 h-5" />
@@ -197,7 +197,7 @@ export default function HandyStartetNicht() {
               Wie wir Ihre Daten retten
             </h2>
             <p className="text-xl text-slate-300 mb-8">
-              Selbst wenn das Handy nicht mehr startet, können wir in den meisten Fällen die Daten retten:
+              Selbst wenn das Handy nicht mehr startet, können wir in den meisten Fällen die Daten retten. Unsere Erfahrung aus täglichen Datenrettungsfällen in Österreich zeigt:
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-slate-800 rounded-xl p-6">
@@ -212,6 +212,95 @@ export default function HandyStartetNicht() {
                 <div className="text-4xl font-bold text-cyan-400 mb-2">85%</div>
                 <p className="text-slate-300">Platinenschäden</p>
               </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Zusammenfassung */}
+      <section className="py-20 bg-slate-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Zusammenfassung</h2>
+            <div className="bg-white rounded-2xl p-8 border border-slate-200">
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum Handys nicht mehr starten:</strong> Ursachen reichen von tief entladenem Akku über Software-Fehler (Bootloop) bis zu Hardware-Defekten wie Platinenschaden oder defektem Display.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann Selbstversuche riskant sind:</strong> Mehrfache Hard Resets oder aggressive Methoden können bei Hardware-Schäden die Daten gefährden. Nach Wasserschaden oder Sturz sollten Sie sofort professionelle Hilfe holen.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann eine professionelle Datenrettung sinnvoll ist:</strong> Wenn wichtige Daten auf dem Gerät sind, nach Wasserschaden/Sturz, bei komischen Geräuschen oder wenn einfache Selbstchecks nicht helfen.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum eine Datenrettung in Österreich oft erfolgreich ist:</strong> Mit zertifizierter Datenrettung und Chip-Level Reparatur erreichen wir 95% Erfolgsquote bei Software-Problemen und 85% bei Platinenschäden.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
+              Häufige Fragen zur Datenrettung in Österreich
+            </h2>
+            <div className="space-y-4">
+              {[
+                {
+                  q: "Kann man Daten retten, wenn das Handy nicht mehr startet?",
+                  a: "Ja, in den meisten Fällen ist eine Datenrettung möglich. Auch bei komplettem Black Screen oder Bootloop können wir mit professioneller Datenrettung die Daten extrahieren – Erfolgsquote liegt bei 95% bei Software-Problemen und 85% bei Hardware-Defekten."
+                },
+                {
+                  q: "Wie lange dauert eine Datenrettung bei nicht startendem Handy?",
+                  a: "Bei Software-Problemen (Bootloop) meist 24-48 Stunden. Bei Hardware-Defekten (Platinenschaden) kann es 3-7 Werktage dauern. Express-Service ist nach Absprache möglich."
+                },
+                {
+                  q: "Was kostet eine Smartphone Datenrettung in Österreich?",
+                  a: "Die kostenlose Diagnose zeigt, was nötig ist. Software-Rettung ab €149, Hardware-Reparatur ab €299. Wichtig: Keine Daten, keine Kosten – Sie zahlen nur bei Erfolg."
+                },
+                {
+                  q: "Sind meine Daten sicher während der Reparatur?",
+                  a: "Ja, Datenschutz hat höchste Priorität. Alle Prozesse erfolgen in gesicherten Laboren, Ihre Daten werden vertraulich behandelt und nach Übergabe sicher gelöscht."
+                },
+                {
+                  q: "Ist Datenrettung nach Wasserschaden möglich?",
+                  a: "Ja, auch nach Wasserschaden können wir Daten retten – oft trotz komplett defektem Gerät. Wichtig: Gerät nicht einschalten und sofort zu uns bringen. Erfolgsquote: 80%."
+                },
+                {
+                  q: "Was ist ein Bootloop und kann man ihn beheben?",
+                  a: "Ein Bootloop tritt auf, wenn das Handy immer wieder neu startet, ohne hochzufahren. Ursachen sind oft Software-Fehler oder defekte Apps. Mit professioneller Datenrettung können wir die Daten extrahieren und oft auch den Bootloop beheben."
+                }
+              ].map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 border border-slate-200">
+                  <h3 className="font-bold text-slate-900 mb-3">{faq.q}</h3>
+                  <p className="text-slate-700">{faq.a}</p>
+                </div>
+              ))}
             </div>
           </motion.div>
         </div>

@@ -46,10 +46,10 @@ export default function GeloeschteFotosWiederherstellen() {
           >
             <Image className="w-12 h-12 text-pink-300 mb-6" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-pink-300">Gelöschte Fotos</span> wiederherstellen
+              <span className="text-pink-300">Gelöschte Fotos</span> wiederherstellen – Ursachen & Datenrettung in Österreich
             </h1>
             <p className="text-xl text-pink-100 mb-4">
-              Fotos versehentlich gelöscht? Wir retten Ihre wertvollen Erinnerungen mit 95% Erfolgsquote – auch nach Formatierung
+              Wenn wertvolle Fotos versehentlich gelöscht werden, ist schnelles Handeln entscheidend. Bei DatenRettung4U retten wir täglich Smartphones in ganz Österreich – auch bei versehentlichem Löschen oder nach Formatierung. Mit professioneller Datenrettung erreichen wir 95% Erfolgsquote bei Foto-Wiederherstellungen.
             </p>
             <div className="flex items-center gap-2 text-pink-200">
               <Clock className="w-5 h-5" />
@@ -95,7 +95,7 @@ export default function GeloeschteFotosWiederherstellen() {
               </p>
               <p className="text-lg text-slate-700">
                 <strong>Das bedeutet:</strong> Solange dieser Speicherplatz nicht mit neuen Daten überschrieben wurde, 
-                können wir die Fotos mit spezieller Software wiederherstellen.
+                können wir die Fotos mit professioneller Datenrettung und spezialisierter Software wiederherstellen. Unsere Erfahrung aus täglichen Datenrettungsfällen in Österreich zeigt: Die Erfolgsquote ist am höchsten, wenn Sie sofort nach dem Löschen reagieren.
               </p>
             </div>
           </motion.div>
@@ -225,6 +225,95 @@ export default function GeloeschteFotosWiederherstellen() {
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Zusammenfassung */}
+      <section className="py-20 bg-pink-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Zusammenfassung</h2>
+            <div className="bg-white rounded-2xl p-8 border border-pink-200">
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-pink-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum gelöschte Fotos oft rettbar sind:</strong> Beim Löschen wird nur der Dateiverweis entfernt – die eigentlichen Bilddaten bleiben physisch auf dem Speicher, bis sie überschrieben werden.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-pink-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann Selbstversuche riskant sind:</strong> Recovery-Apps können Daten überschreiben. Weiteres Fotografieren oder App-Installationen gefährden die Rettungschancen erheblich.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-pink-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Wann eine professionelle Datenrettung sinnvoll ist:</strong> Bei wichtigen Erinnerungsfotos, nach Formatierung oder wenn der "Zuletzt gelöscht" Ordner bereits geleert wurde.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-pink-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <strong>Warum eine Datenrettung in Österreich oft erfolgreich ist:</strong> Mit zertifizierter Datenrettung, modernen Technologien und Erfahrung aus täglichen Rettungsfällen erreichen wir 95% Erfolgsquote bei Foto-Wiederherstellungen.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
+              Häufige Fragen zur Datenrettung in Österreich
+            </h2>
+            <div className="space-y-4">
+              {[
+                {
+                  q: "Kann man gelöschte Fotos nach Formatierung wiederherstellen?",
+                  a: "Ja, in vielen Fällen ist eine Wiederherstellung möglich. Nach einer Formatierung werden Fotos nicht sofort physisch gelöscht. Mit professioneller Datenrettung können wir diese oft noch extrahieren – Erfolgsquote liegt bei 85% nach Formatierung."
+                },
+                {
+                  q: "Wie lange dauert eine Foto-Datenrettung?",
+                  a: "Bei einfachen Fällen (versehentliches Löschen) dauert die Wiederherstellung meist 24-48 Stunden. Bei komplexeren Hardware-Schäden kann es 3-5 Werktage dauern. Express-Service ist nach Absprache möglich."
+                },
+                {
+                  q: "Was kostet eine Foto-Datenrettung in Österreich?",
+                  a: "Die Diagnose ist kostenlos. Die Kosten hängen vom Aufwand ab – bei Software-Wiederherstellung ab €99, bei Hardware-Schäden individuell. Wichtig: Keine Daten, keine Kosten."
+                },
+                {
+                  q: "Sind meine Fotos während der Rettung sicher?",
+                  a: "Ja, Datenschutz hat höchste Priorität. Alle Daten werden vertraulich behandelt und nach erfolgreicher Übergabe sicher gelöscht. Wir unterliegen der österreichischen DSGVO."
+                },
+                {
+                  q: "Funktioniert Foto-Wiederherstellung auch ohne iCloud/Google Backup?",
+                  a: "Ja, professionelle Datenrettung funktioniert komplett ohne Cloud-Backup. Wir arbeiten direkt mit dem Gerätespeicher und können Fotos wiederherstellen, selbst wenn nie ein Backup angelegt wurde."
+                },
+                {
+                  q: "Kann man Fotos retten, die vor Monaten gelöscht wurden?",
+                  a: "Das hängt von der Nutzung des Geräts ab. Je weniger das Gerät seit dem Löschen genutzt wurde, desto besser die Chancen. Selbst nach Monaten sind Wiederherstellungen möglich, wenn der Speicherbereich nicht überschrieben wurde."
+                }
+              ].map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 border border-slate-200">
+                  <h3 className="font-bold text-slate-900 mb-3">{faq.q}</h3>
+                  <p className="text-slate-700">{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
         </div>
       </section>
 
