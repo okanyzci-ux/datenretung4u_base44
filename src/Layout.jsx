@@ -44,24 +44,31 @@ export default function Layout({ children, currentPageName }) {
   const hideLayoutPages = ["Impressum", "Datenschutz"];
   const showMinimalFooter = hideLayoutPages.includes(currentPageName);
 
-  return (
-    <>
-      {/* SEO Meta Tags & Analytics */}
-      <head>
-        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2306B6D4' width='100' height='100' rx='20'/><path fill='white' d='M50 25 L50 45 M50 55 L50 75 M30 35 L70 35 M30 65 L70 65' stroke='white' stroke-width='8' stroke-linecap='round'/></svg>" />
-        <meta name="theme-color" content="#06B6D4" />
-        
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-        <script dangerouslySetInnerHTML={{__html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-XXXXXXXXXX');
-        `}} />
-      </head>
+  useEffect(() => {
+    // Add favicon
+    const favicon = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    favicon.type = 'image/svg+xml';
+    favicon.rel = 'icon';
+    favicon.href = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2306B6D4' width='100' height='100' rx='20'/><path fill='white' d='M50 25 L50 45 M50 55 L50 75 M30 35 L70 35 M30 65 L70 65' stroke='white' stroke-width='8' stroke-linecap='round'/></svg>";
+    document.getElementsByTagName('head')[0].appendChild(favicon);
 
-      <div className="min-h-screen bg-white">
+    // Add Google Analytics (replace G-XXXXXXXXXX with your tracking ID)
+    if (!window.gtag) {
+      const script1 = document.createElement('script');
+      script1.async = true;
+      script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+      document.head.appendChild(script1);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    }
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-white">
       <style>{`
         :root {
           --primary: #0F172A;
@@ -381,7 +388,6 @@ export default function Layout({ children, currentPageName }) {
           </div>
         </div>
       </footer>
-      </div>
-    </>
+    </div>
   );
 }
