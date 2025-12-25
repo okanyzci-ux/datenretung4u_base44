@@ -47,9 +47,9 @@ export default function Layout({ children, currentPageName }) {
   useEffect(() => {
     // Add favicon
     const favicon = document.querySelector("link[rel*='icon']") || document.createElement('link');
-    favicon.type = 'image/svg+xml';
+    favicon.type = 'image/png';
     favicon.rel = 'icon';
-    favicon.href = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2306B6D4' width='100' height='100' rx='20'/><path fill='white' d='M50 25 L50 45 M50 55 L50 75 M30 35 L70 35 M30 65 L70 65' stroke='white' stroke-width='8' stroke-linecap='round'/></svg>";
+    favicon.href = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694861f811e0d195457d9bab/2ccf0d155_FaviconDatenrettung4ulogo.png";
     document.getElementsByTagName('head')[0].appendChild(favicon);
 
     // Add Google Analytics (replace G-XXXXXXXXXX with your tracking ID)
