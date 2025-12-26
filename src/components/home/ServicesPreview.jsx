@@ -42,17 +42,11 @@ export default function ServicesPreview() {
           <p className="text-lg text-slate-600">
             Schnellzugriff auf unsere meistgenutzten Dienstleistungen
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid md:grid-cols-4 gap-6">
           {services.map((service, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-            >
+            <div key={index}>
               <Link
                 to={createPageUrl(service.link)}
                 className="block bg-slate-50 rounded-xl p-6 hover:bg-cyan-50 border border-slate-100 hover:border-cyan-200 transition-all group"
@@ -67,7 +61,7 @@ export default function ServicesPreview() {
                   <ArrowRight className="w-4 h-4" />
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
