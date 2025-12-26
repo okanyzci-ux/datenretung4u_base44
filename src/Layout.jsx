@@ -52,6 +52,14 @@ export default function Layout({ children, currentPageName }) {
     favicon.href = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694861f811e0d195457d9bab/2ccf0d155_FaviconDatenrettung4ulogo.png";
     document.getElementsByTagName('head')[0].appendChild(favicon);
 
+    // Preload critical fonts
+    const fontPreload = document.createElement('link');
+    fontPreload.rel = 'preload';
+    fontPreload.as = 'font';
+    fontPreload.type = 'font/woff2';
+    fontPreload.crossOrigin = 'anonymous';
+    document.head.appendChild(fontPreload);
+
     // Add Google Analytics (replace G-XXXXXXXXXX with your tracking ID)
     if (!window.gtag) {
       const script1 = document.createElement('script');
@@ -77,6 +85,9 @@ export default function Layout({ children, currentPageName }) {
           --gold: #F59E0B;
           --gold-light: #FBBF24;
         }
+        @font-face {
+          font-display: swap;
+        }
         .gradient-text {
           background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%);
           -webkit-background-clip: text;
@@ -88,6 +99,9 @@ export default function Layout({ children, currentPageName }) {
         }
         .card-shine {
           background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+        }
+        img {
+          content-visibility: auto;
         }
       `}</style>
 
@@ -140,6 +154,8 @@ export default function Layout({ children, currentPageName }) {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694861f811e0d195457d9bab/2ccf0d155_FaviconDatenrettung4ulogo.png" 
                 alt="DatenRettung4U Logo" 
                 className="w-12 h-12 rounded-xl object-contain"
+                loading="eager"
+                decoding="async"
               />
               <div className="flex flex-col justify-center">
                 <div className="leading-none">
@@ -288,6 +304,8 @@ export default function Layout({ children, currentPageName }) {
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/694861f811e0d195457d9bab/2ccf0d155_FaviconDatenrettung4ulogo.png" 
                   alt="DatenRettung4U Logo" 
                   className="w-10 h-10 rounded-xl object-contain"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="flex flex-col justify-center leading-none">
                   <span className="text-lg font-bold">DatenRettung</span>
