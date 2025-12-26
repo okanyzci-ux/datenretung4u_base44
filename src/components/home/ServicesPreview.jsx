@@ -26,9 +26,9 @@ export default function ServicesPreview() {
     },
     {
       icon: BookOpen,
-      title: "Android Datenrettung",
-      description: "Samsung, Huawei, Google & mehr",
-      link: "android-datenrettung"
+      title: "Gelöschte Daten",
+      description: "Schnelles Handeln ist entscheidend",
+      link: "geloeschte-daten-wiederherstellen"
     }
   ];
 

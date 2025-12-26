@@ -7,12 +7,12 @@ import SEO from "../components/SEO";
 
 export default function GeloeschteDatenWiederherstellen() {
   const dataTypes = [
-    { type: "Fotos & Videos", rate: "95%", desc: "Selbst nach Formatierung oft rettbar" },
-    { type: "WhatsApp Nachrichten", rate: "90%", desc: "Chats, Medien und Sprachnachrichten" },
+    { type: "Fotos & Videos", rate: "55%", desc: "Wenn schnell gehandelt wird" },
+    { type: "WhatsApp Nachrichten", rate: "55%", desc: "Abhängig von der Weiternutzung" },
     { type: "Kontakte", rate: "98%", desc: "Telefonnummern und gespeicherte Infos" },
-    { type: "SMS & iMessages", rate: "92%", desc: "Textnachrichten aller Art" },
+    { type: "SMS & iMessages", rate: "55%", desc: "Oft schwierig bei Überschreibung" },
     { type: "E-Mails", rate: "88%", desc: "Lokal gespeicherte E-Mails" },
-    { type: "Dokumente", rate: "85%", desc: "PDFs, Office-Dateien, Notizen" }
+    { type: "Dokumente", rate: "55%", desc: "Abhängig vom Nutzungsverhalten" }
   ];
 
   const scenarios = [
@@ -27,8 +27,8 @@ export default function GeloeschteDatenWiederherstellen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Gelöschte Daten wiederherstellen - Fotos, WhatsApp | 92% Erfolgsquote"
-        description="Gelöschte Daten wiederherstellen ✓ Fotos & Videos ✓ WhatsApp Nachrichten ✓ Kontakte ✓ Nach Formatierung ✓ Ohne Backup ✓ 92% Erfolgsquote ✓ iPhone & Android"
+        title="Gelöschte Daten wiederherstellen - Fotos, WhatsApp | Sofort handeln!"
+        description="Gelöschte Daten wiederherstellen ✓ Zeit ist entscheidend ✓ Fotos & Videos ✓ WhatsApp Nachrichten ✓ Kontakte ✓ Nach Formatierung ✓ Ohne Backup ✓ iPhone & Android"
         keywords="gelöschte Daten wiederherstellen, gelöschte Fotos wiederherstellen, WhatsApp Nachrichten wiederherstellen, Handy Formatierung Datenrettung"
         canonicalUrl="https://datenrettung4u.at/geloeschte-daten-wiederherstellen"
       />
@@ -46,7 +46,7 @@ export default function GeloeschteDatenWiederherstellen() {
               <span className="text-amber-300">Gelöschte Daten</span> wiederherstellen – Professionelle Datenrettung in Österreich
             </h1>
             <p className="text-xl text-amber-100 mb-8">
-              Wenn Daten versehentlich gelöscht wurden oder nach einer Formatierung verloren sind, können wir bei DatenRettung4U helfen. Mit unserer Erfahrung aus täglichen Datenrettungsfällen in ganz Österreich retten wir Ihre Fotos, Videos, WhatsApp Chats und mehr – 92% Erfolgsquote.
+              Wenn Daten versehentlich gelöscht wurden oder nach einer Formatierung verloren sind, können wir bei DatenRettung4U helfen. Wichtig: Bei gelöschten Daten sinkt die Erfolgsquote mit der Zeit, da neue Daten den Speicher überschreiben. Schnelles Handeln ist entscheidend.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -204,15 +204,15 @@ export default function GeloeschteDatenWiederherstellen() {
             </p>
             <div className="grid md:grid-cols-3 gap-6 mt-8">
               <div className="bg-green-500/20 border border-green-500/50 rounded-xl p-4">
-                <div className="text-3xl font-bold text-green-400 mb-2">95%+</div>
+                <div className="text-3xl font-bold text-green-400 mb-2">70%</div>
                 <p className="text-sm text-slate-300">Sofortige Reaktion (innerhalb 24h)</p>
               </div>
               <div className="bg-amber-500/20 border border-amber-500/50 rounded-xl p-4">
-                <div className="text-3xl font-bold text-amber-400 mb-2">80%</div>
+                <div className="text-3xl font-bold text-amber-400 mb-2">55%</div>
                 <p className="text-sm text-slate-300">Nach 1 Woche Nutzung</p>
               </div>
               <div className="bg-red-500/20 border border-red-500/50 rounded-xl p-4">
-                <div className="text-3xl font-bold text-red-400 mb-2">50%</div>
+                <div className="text-3xl font-bold text-red-400 mb-2">25%</div>
                 <p className="text-sm text-slate-300">Nach intensiver Weiternutzung</p>
               </div>
             </div>
@@ -252,7 +252,7 @@ export default function GeloeschteDatenWiederherstellen() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-1" />
                   <div>
-                    <strong>Warum eine Datenrettung in Österreich oft erfolgreich ist:</strong> Mit zertifizierter Datenrettung und modernen Technologien erreichen wir 92% Erfolgsquote – auch ohne Backup.
+                    <strong>Warum schnelles Handeln wichtig ist:</strong> Gelöschte Daten können überschrieben werden. Je schneller Sie reagieren, desto höher die Erfolgschancen bei der Wiederherstellung.
                   </div>
                 </li>
               </ul>
@@ -321,7 +321,7 @@ export default function GeloeschteDatenWiederherstellen() {
               Gelöschte Daten jetzt retten!
             </h2>
             <p className="text-xl text-amber-100 mb-8">
-              Kostenlose Analyse • 92% Erfolgsquote • Auch ohne Backup
+              Kostenlose Analyse • Schnelle Reaktion wichtig • Auch ohne Backup
             </p>
             <Link
               to={createPageUrl("Datenrettung")}

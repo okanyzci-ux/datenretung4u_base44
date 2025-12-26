@@ -61,8 +61,8 @@ export default function Leistungen() {
     {
       icon: Trash2,
       title: "Gelöschte Daten wiederherstellen",
-      description: "Wiederherstellung versehentlich gelöschter Fotos, Videos, Kontakte und Nachrichten",
-      successRate: "92%",
+      description: "Wiederherstellung versehentlich gelöschter Fotos, Videos, Kontakte und Nachrichten - schnelles Handeln wichtig!",
+      successRate: "55%",
       link: "geloeschte-daten-wiederherstellen"
     }
   ];

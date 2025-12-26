@@ -7,10 +7,10 @@ import SEO from "../components/SEO";
 
 export default function GeloeschteFotosWiederherstellen() {
   const scenarios = [
-    { situation: "Versehentlich gelöscht", chance: "95%", time: "Sofort handeln" },
-    { situation: "Nach Formatierung", chance: "85%", time: "Innerhalb 24h" },
-    { situation: "Nach Werksreset", chance: "75%", time: "Je schneller, desto besser" },
-    { situation: "Überschrieben", chance: "30%", time: "Teilweise möglich" }
+    { situation: "Versehentlich gelöscht", chance: "55%", time: "Sofort handeln" },
+    { situation: "Nach Formatierung", chance: "45%", time: "Innerhalb 24h" },
+    { situation: "Nach Werksreset", chance: "40%", time: "Je schneller, desto besser" },
+    { situation: "Überschrieben", chance: "15%", time: "Sehr selten möglich" }
   ];
 
   const steps = [
@@ -31,8 +31,8 @@ export default function GeloeschteFotosWiederherstellen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Gelöschte Fotos wiederherstellen - Handy | 95% Erfolgsquote"
-        description="Gelöschte Fotos vom Handy wiederherstellen ✓ iPhone & Android ✓ Nach Formatierung ✓ Ohne Backup ✓ 95% Erfolgsquote ✓ Auch Videos ✓ Kostenlose Diagnose"
+        title="Gelöschte Fotos wiederherstellen - Handy | Zeit ist entscheidend"
+        description="Gelöschte Fotos vom Handy wiederherstellen ✓ iPhone & Android ✓ Nach Formatierung ✓ Ohne Backup ✓ Schnelles Handeln wichtig ✓ Auch Videos ✓ Kostenlose Diagnose"
         keywords="gelöschte Fotos wiederherstellen, iPhone Fotos wiederherstellen, Android Fotos wiederherstellen, formatierte Fotos retten, ohne Backup"
         canonicalUrl="https://datenrettung4u.at/geloeschte-fotos-wiederherstellen"
       />
@@ -49,7 +49,7 @@ export default function GeloeschteFotosWiederherstellen() {
               <span className="text-pink-300">Gelöschte Fotos</span> wiederherstellen – Ursachen & Datenrettung in Österreich
             </h1>
             <p className="text-xl text-pink-100 mb-4">
-              Wenn wertvolle Fotos versehentlich gelöscht werden, ist schnelles Handeln entscheidend. Bei DatenRettung4U retten wir täglich Smartphones in ganz Österreich – auch bei versehentlichem Löschen oder nach Formatierung. Mit professioneller Datenrettung erreichen wir 95% Erfolgsquote bei Foto-Wiederherstellungen.
+              Wenn wertvolle Fotos versehentlich gelöscht werden, ist schnelles Handeln entscheidend. Bei DatenRettung4U retten wir täglich Smartphones in ganz Österreich. Wichtig: Die Erfolgsquote hängt stark davon ab, wie schnell Sie reagieren und ob das Gerät weiter genutzt wurde.
             </p>
             <div className="flex items-center gap-2 text-pink-200">
               <Clock className="w-5 h-5" />
@@ -260,7 +260,7 @@ export default function GeloeschteFotosWiederherstellen() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-pink-600 flex-shrink-0 mt-1" />
                   <div>
-                    <strong>Warum eine Datenrettung in Österreich oft erfolgreich ist:</strong> Mit zertifizierter Datenrettung, modernen Technologien und Erfahrung aus täglichen Rettungsfällen erreichen wir 95% Erfolgsquote bei Foto-Wiederherstellungen.
+                    <strong>Realistische Erwartungen:</strong> Die Erfolgsquote bei gelöschten Fotos liegt im Schnitt bei 55%, da viele Nutzer das Gerät weiter verwenden und Daten überschrieben werden. Je schneller Sie reagieren, desto besser die Chancen.
                   </div>
                 </li>
               </ul>
@@ -284,7 +284,7 @@ export default function GeloeschteFotosWiederherstellen() {
               {[
                 {
                   q: "Kann man gelöschte Fotos nach Formatierung wiederherstellen?",
-                  a: "Ja, in vielen Fällen ist eine Wiederherstellung möglich. Nach einer Formatierung werden Fotos nicht sofort physisch gelöscht. Mit professioneller Datenrettung können wir diese oft noch extrahieren – Erfolgsquote liegt bei 85% nach Formatierung."
+                  a: "Ja, manchmal ist eine Wiederherstellung möglich. Nach einer Formatierung werden Fotos nicht sofort physisch gelöscht. Allerdings ist die Erfolgsquote begrenzt (ca. 45%), besonders wenn das Gerät danach weiter genutzt wurde."
                 },
                 {
                   q: "Wie lange dauert eine Foto-Datenrettung?",
@@ -330,7 +330,7 @@ export default function GeloeschteFotosWiederherstellen() {
               Retten Sie Ihre Erinnerungen!
             </h2>
             <p className="text-xl text-pink-100 mb-8">
-              Kostenlose Diagnose • 95% Erfolgsquote • Auch Videos & Screenshots
+              Kostenlose Diagnose • Zeit ist entscheidend • Auch Videos & Screenshots
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
