@@ -27,6 +27,7 @@ import iphoneVsSamsungDatenrettung from './pages/iphone-vs-samsung-datenrettung'
 import platinenschadenDatenrettung from './pages/platinenschaden-datenrettung';
 import samsungDatenrettung from './pages/samsung-datenrettung';
 import wasserschadenDatenrettung from './pages/wasserschaden-datenrettung';
+import haeufigeFragenDatenrettung from './pages/haeufige-fragen-datenrettung';
 import __Layout from './Layout.jsx';
 
 
@@ -60,6 +61,7 @@ export const PAGES = {
     "platinenschaden-datenrettung": platinenschadenDatenrettung,
     "samsung-datenrettung": samsungDatenrettung,
     "wasserschaden-datenrettung": wasserschadenDatenrettung,
+    "haeufige-fragen-datenrettung": haeufigeFragenDatenrettung,
 }
 
 export const pagesConfig = {

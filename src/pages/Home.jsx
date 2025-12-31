@@ -6,6 +6,7 @@ import ProcessSection from "../components/home/ProcessSection";
 import DamageTypesSection from "../components/home/DamageTypesSection";
 import BrandsSection from "../components/home/BrandsSection";
 import TestimonialsSection from "../components/home/TestimonialsSection";
+import FAQSection from "../components/home/FAQSection";
 import CTASection from "../components/home/CTASection";
 import SEO, { StructuredData } from "../components/SEO";
 
@@ -65,6 +66,7 @@ export default function Home() {
         <DamageTypesSection />
         <BrandsSection />
         <TestimonialsSection />
+        <FAQSection />
         <CTASection />
       </div>
     </>
