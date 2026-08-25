@@ -1,0 +1,79 @@
+{
+  "name": "ContactRequest",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Kundenname"
+    },
+    "email": {
+      "type": "string",
+      "description": "E-Mail Adresse"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Telefonnummer"
+    },
+    "brand": {
+      "type": "string",
+      "enum": [
+        "Apple",
+        "Samsung",
+        "Huawei",
+        "Xiaomi",
+        "OnePlus",
+        "Google Pixel",
+        "Sony",
+        "LG",
+        "Nokia",
+        "Andere"
+      ],
+      "description": "Smartphone Hersteller"
+    },
+    "model": {
+      "type": "string",
+      "description": "Ger\u00e4temodell"
+    },
+    "damage_type": {
+      "type": "string",
+      "enum": [
+        "Wasserschaden",
+        "Sturzschaden",
+        "Display defekt",
+        "Startet nicht",
+        "Bootloop",
+        "Daten gel\u00f6scht",
+        "Platinenschaden",
+        "Andere"
+      ],
+      "description": "Art des Schadens"
+    },
+    "message": {
+      "type": "string",
+      "description": "Zus\u00e4tzliche Nachricht"
+    },
+    "city": {
+      "type": "string",
+      "description": "Stadt/Region"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "neu",
+        "in_bearbeitung",
+        "abgeschlossen"
+      ],
+      "default": "neu"
+    },
+    "data_recovery_possible": {
+      "type": "boolean",
+      "description": "Ob Datenrettung m\u00f6glich ist"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "brand",
+    "damage_type"
+  ]
+}
